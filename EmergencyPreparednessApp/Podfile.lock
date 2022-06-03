@@ -1,0 +1,48 @@
+PODS:
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - AppCenter (4.4.1):
+    - AppCenter/Analytics (= 4.4.1)
+    - AppCenter/Crashes (= 4.4.1)
+  - AppCenter/Analytics (4.4.1):
+    - AppCenter/Core
+  - AppCenter/Core (4.4.1)
+  - AppCenter/Crashes (4.4.1):
+    - AppCenter/Core
+  - BMSAnalyticsAPI (2.3.1)
+  - BMSCore (2.7.0):
+    - BMSAnalyticsAPI (~> 2.3)
+  - BMSPush (3.6.0):
+    - BMSCore (~> 2.4)
+  - PKHUD (5.3.0)
+
+DEPENDENCIES:
+  - AppAuth
+  - AppCenter
+  - BMSCore (~> 2.0)
+  - BMSPush (~> 3.0)
+  - PKHUD (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+    - AppCenter
+    - BMSAnalyticsAPI
+    - BMSCore
+    - BMSPush
+    - PKHUD
+
+SPEC CHECKSUMS:
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  AppCenter: b0b6f1190215b5f983c42934db718f3b46fff3c0
+  BMSAnalyticsAPI: f9c740eb3c0857c0955e58a10321a96b5d85304e
+  BMSCore: a691edd7244f48348c1091ebfbfe201520af41e0
+  BMSPush: b6621e56286def48d1d3398ff793ba8fcf6ca2ae
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+
+PODFILE CHECKSUM: d611806f7f466859ddb6785260ab195b74861ffd
+
+COCOAPODS: 1.11.2

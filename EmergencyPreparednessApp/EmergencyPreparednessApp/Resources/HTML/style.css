@@ -1,0 +1,162 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 10pt;
+    font-weight: medium;
+    box-sizing: border-box;
+
+  }
+
+  div.wrapper {
+    margin: 10px;
+  }
+
+b {
+    font-style: normal;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-size: 10pt;
+}
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin: 3px 0 10px 0;
+  }
+
+  h1 {
+    color: #006BB6;
+    font-family: "helvetica neue", "Roboto Thin", sans-serif;
+    font-weight: 200;
+    font-size: 24pt;
+    margin-top: 30px;
+  }
+
+  h2 {
+      font-family: "Helvetica Neue";
+      color: #0F6BB6;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14pt;
+  }
+
+  h3 {
+    color: #006bb6;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10pt;
+  }
+
+  h4 {
+    color: #006BB6;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 9.5pt;
+  }
+
+  a {
+    text-decoration: none;
+    color: #231F20;
+  }
+
+
+  p {
+      color: #000000;
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+    font-size: 10pt;
+    margin-bottom: 10px;
+  }
+
+  p.Glossary_term {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  ol,
+  ul {
+    margin: 3px 0 10px 0;
+  }
+
+  li {
+      font-family: "Helvetica Neue";
+      font-weight: 300;
+      font-size: 10pt;
+      margin: 3px 0 13px 16px;
+/*    margin-left: 16px;*/
+  }
+
+
+.blullets li p {
+    list-style-type = dot
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+    font-size: 10pt;
+}
+  li p {
+      font-family: "Helvetica Neue";
+      font-weight: 300;
+      font-size: 10pt;
+  }
+
+ul.para li{
+    list-style-type: none;
+    margin: 3px 0 10px 0;
+}
+
+  ul li {
+    list-style-type: disc;
+  }
+
+  table {
+    border-spacing: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  table p {
+    margin-bottom: 0;
+  }
+
+  th {
+      width: 35%;
+    text-align: left;
+  }
+
+  td {
+    background-color:#FFFFFF;
+    padding: 10px;
+    border: 1px solid lightgray;
+  }
+
+  table.large th {
+      width: 20%;
+  }
+
+  div.wrapper img {
+    float: right;
+    width: 15px;
+    height: 20px;
+    text-align: center;
+  }
+
+div.web img{
+    float: right;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}

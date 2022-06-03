@@ -1,0 +1,2043 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0437EB52E47F4DB542AB24721F109DA8 /* Build configuration list for PBXAggregateTarget "AppCenter" */;
+			buildPhases = (
+				1D06934B6CA4E608DB4BC52D02B50E2F /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = AppCenter;
+			productName = AppCenter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00B15FCCA7CC12C15A13010614F01854 /* OIDURLQueryComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C791948615F829B4F86AB4BDCF169 /* OIDURLQueryComponent.m */; };
+		029C8B9FF13210779FF968423ACE5974 /* BMSPushClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA85825531636D4DF60638DF4482A201 /* BMSPushClient.swift */; };
+		064331AA6828FB1C2DD441B5D77CBA2E /* BaseAuthorizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F937046690C02FF55E39722B65AC1B4 /* BaseAuthorizationManager.swift */; };
+		074439BC84D6EA52918CDA5EBCF1C369 /* Pods-EmergencyPreparednessApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F52EF415193446AFC4B3EE53702BB0 /* Pods-EmergencyPreparednessApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09EE1BC2A0CC6A033CB7F5C8F8080483 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A214E41D5C5BC33A5C146EC9DCF5B93 /* FrameView.swift */; };
+		0DE74F0B226EDC8C77D5CC00C0F15A6C /* OIDTokenUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 799A1F98B2E9A1697DA0BD11E00E2376 /* OIDTokenUtilities.m */; };
+		121B0C3D44DB9173A58AA37992BD7EFB /* BMSLocalPushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D731BFF0531A6626F4A4843E47797A09 /* BMSLocalPushNotification.swift */; };
+		1409D9CB66753D5C2E90FF9EA6B7AC40 /* PKHUDSquareBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D5A857C2466CD4CF32B80C7855D1AC /* PKHUDSquareBaseView.swift */; };
+		161B289F1C83A7281E6842E33014033F /* OIDClientMetadataParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F0523AB39B856278B8177C48E03503 /* OIDClientMetadataParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17EC3E69469BB4FE2ACD89184105A8BA /* OIDFieldMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = D246B5EAB743C175A678D7F944DC75DA /* OIDFieldMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D376F58486D105963C87CEADF99EA5F /* BaseAppIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F912AEA3FEFDB2F6404895824D0E657 /* BaseAppIdentity.swift */; };
+		1D66D60A6F32CFF16C509D1396D0EFDE /* OIDURLQueryComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B98C6D534AD6570A4A7EA7BF66BAA0F /* OIDURLQueryComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E589D08CB276548953C9FF2A685F130 /* PKHUDSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF06D51A491132F7984DD5AD2361655 /* PKHUDSuccessView.swift */; };
+		2141E0EC61AF18CD970FBB3602BFCC73 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35B17A330214345007A5418CAA9413B /* Logger.swift */; };
+		2156F1E12D1F62F8322CFE5C29277E6E /* OIDResponseTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BC9646AE6D2F1F348CDA42439643D4 /* OIDResponseTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21812B0C5F6C1BC0DC3303B73915D91B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DBC1182C8415D263FF3E4D6A690614 /* Foundation.framework */; };
+		23D7A484A719B35052CFCF1A47083959 /* OIDClientMetadataParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF2E3692666706467B58CD39F87E831 /* OIDClientMetadataParameters.m */; };
+		243160002BA286FFB5BC028467610E3C /* BMSPushNotificationActionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D60B21C42E4D2153F7A842B5A2EBA4A /* BMSPushNotificationActionCategory.swift */; };
+		24AD353EC5CADF005E457C6F2710F0E0 /* BMSCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D8F03B3333F81AF08AC6EA56961CD0BC /* BMSCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B0A24E6A9A8DF0242ED11007B9F0CD8 /* OIDErrorUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D23EEF7811D19009D73E0110C190BF /* OIDErrorUtilities.m */; };
+		2E767405F0004A42FC8FFBA1E21DFE20 /* OIDScopeUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D115C26BB7B4C792CFFEEADFA20EEB /* OIDScopeUtilities.m */; };
+		2EF390C79F02F4E85DB5FB4C1F042498 /* OIDExternalUserAgentIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F58A1C7D585A033FDECB2DF26B6E1E86 /* OIDExternalUserAgentIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320D03F92E37CA225E1AB819D00B09B6 /* OIDAuthStateErrorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 660E6A58AC1B1025D0EECF8865F2C6A6 /* OIDAuthStateErrorDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		333F62E2542F433813D4812D91EBC566 /* PKHUDAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EF19D21A8EE08609B8E57B3E92503C /* PKHUDAnimation.swift */; };
+		36DC3ACDD3D67D6800CABB2100702A0A /* OIDAuthStateChangeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D461AB3351A9B346926AACC7608913 /* OIDAuthStateChangeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37AE9C7F421984AA8C7B6AEFF69B0BEB /* PKHUDSystemActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D89E7B97FFE30CA891D2A37014DB3B /* PKHUDSystemActivityIndicatorView.swift */; };
+		37B71CC20A787EAE0662CD1A40DA64B6 /* OIDExternalUserAgentSession.h in Headers */ = {isa = PBXBuildFile; fileRef = E491A2F004AE0045F69ED7C1BD72AE5C /* OIDExternalUserAgentSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A0E0A51FD354DBBD4EFAB2B4F02B8C6 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2BC5B1D9D34D66E1CC9181B1696D7 /* NetworkMonitor.swift */; };
+		3BA4BB30384C2411A2EF7F1C3EFB1268 /* BMSURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF37757B3BB66914D79656F0ACC9C47 /* BMSURLSession.swift */; };
+		3D0AB4FFCED688AEFEFE12DCCE7B89A4 /* BMSCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAD078BFEC6EAE977DA70433334FD3C /* BMSCore-dummy.m */; };
+		3E4FD8334D1FDC49B2AFCDC5CA638D5C /* BaseDeviceIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A98D4C93845FC30E12F1D8119AA4530 /* BaseDeviceIdentity.swift */; };
+		3FCC46F66539889722F343F2B02BF837 /* BMSRichPushNotificationOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC53B88AACC9B10A0814818F2C690C1 /* BMSRichPushNotificationOptions.swift */; };
+		42BE0FE120C46ACD08F40313ECF62602 /* PKHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 243C32B1456EF9E901A63FDA1B7E835E /* PKHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		439CAB2D08FC0211211A3C29A8FBC623 /* OIDAuthorizationService.h in Headers */ = {isa = PBXBuildFile; fileRef = D7819DC8FF01D498E3395A6918A3375D /* OIDAuthorizationService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4447683B19506EEA079DF50B4439B0D5 /* OIDGrantTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F5FCECDF85454511EE1E3E2818886F /* OIDGrantTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44D64F1957C7A32498E40F7F45062088 /* OIDAuthorizationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BB35871521AF709482B08EBEE9EF70 /* OIDAuthorizationService.m */; };
+		457F8F3576D65A8717113C59D6665554 /* OIDEndSessionResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5E02BD0290FB5E711E403CE5DE8151 /* OIDEndSessionResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		468CEC1F1ED6564685600D76F289F8CB /* AppAuthCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9E736595DB537E63E307A41DEA97F7 /* AppAuthCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4816ED359D1CCB98A1C010564EE02C2F /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7F52E9440D6BFF0B1159CE55091460 /* SafariServices.framework */; };
+		4845BF5ED5999291320D49E88162F62A /* OIDError.h in Headers */ = {isa = PBXBuildFile; fileRef = 46071CA308EE98A32CA4ED2A5C2B84CC /* OIDError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48B1B9E539FE704957CE5D8A1500EFB5 /* OIDAuthState+IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 197C4800AAF58304E6A9603E8D71845D /* OIDAuthState+IOS.m */; };
+		4A24503FE25D6B716A3E4E138451B70F /* OIDURLSessionProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 028FECB51F574C9EBE53D73E17BAB43C /* OIDURLSessionProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C765081895B1F7551FED0CA1DBF8B77 /* OIDTokenRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD4EA247B8D4C48A16B56638C78C95D /* OIDTokenRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D684BCA97B22BC2978D0CD7599FC751 /* OIDExternalUserAgentIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3AC1EECD1385829525E4127F9980F6 /* OIDExternalUserAgentIOS.m */; };
+		4DC1ED8D0745D8006F24FF47C660D4F6 /* Pods-EmergencyPreparednessApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78439433329E78001807C4EA32CDC032 /* Pods-EmergencyPreparednessApp-dummy.m */; };
+		4EC72E2644CD9094F05B5ECD611F8925 /* BMSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B2CE449C650B838E3B0E89ED5748FD /* BMSConstants.swift */; };
+		5176304A117EC8C69261BB47E63C1B5F /* OIDScopes.m in Sources */ = {isa = PBXBuildFile; fileRef = C4214695EA5A89F12C2E62B167B47148 /* OIDScopes.m */; };
+		51C24FAAC45273CE7FF920D0CC553274 /* OIDExternalUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 73384EE1152F8F7B7A31950740F42704 /* OIDExternalUserAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52DCCBBE231688834A4430EC4DC5E2F3 /* OIDTokenUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 92A7BA7E5473536EBBA84A9473F0BFE3 /* OIDTokenUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53D4434B14DBF9E306584407F2471187 /* OIDAuthorizationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CA0260F882A35F58A96297CB580EFC /* OIDAuthorizationRequest.m */; };
+		55064EAF9418DD36D04BBAF4B0017D37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DBC1182C8415D263FF3E4D6A690614 /* Foundation.framework */; };
+		551E477DFE0DF7EA481165609280D1D7 /* OIDAuthorizationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E3A991F0301CA744266F59569DBCA9 /* OIDAuthorizationResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59B231A3BEF1F8D412CCF5D0872901FC /* DeviceIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786E03C5B2CE1037183C9FC3107963D1 /* DeviceIdentity.swift */; };
+		5B8E0518EE842922F5A03F19F0B22726 /* PKHUDWideBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388C90E719D5A80037BD4152F6625645 /* PKHUDWideBaseView.swift */; };
+		5BD985E4671C5879F20406153E3E574C /* AppAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF878D514A36C6F6CEC4D87DA3FE933 /* AppAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F01C54555E009F90253DD1C3E0F5198 /* PKHUDProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A64B70F5EBF525EF0009F138598D28C /* PKHUDProgressView.swift */; };
+		608DEEB38C6B137DBC9A71197CBFD19D /* OIDRegistrationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6398E7F5E2A9D91D0B41A4712CC6BC7 /* OIDRegistrationRequest.m */; };
+		6264526D8F9C1ACEF1013E5A724FD971 /* OIDAuthState.h in Headers */ = {isa = PBXBuildFile; fileRef = 761B5B01E43F181A408427783E91D418 /* OIDAuthState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		626560FCB1C4C562C117E742A6486A1E /* PKHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7654180805BBC3781A7061954F63BF2A /* PKHUD.swift */; };
+		63D6953A174B64F06DD8D734A2965653 /* UserIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C2E94E249976CB988FDC2AAB8198AF /* UserIdentity.swift */; };
+		652A5783876A76F24CD10559F9317AEF /* PKHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC956AD7AEB0223AED606C3F15DC4553 /* PKHUDErrorView.swift */; };
+		6FAB0F9EC2A22E3BD65C9EA8F78F74A2 /* PKHUDAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D05186F0990F5E7C78775E0CDA9BEEA /* PKHUDAssets.swift */; };
+		728592BA748BDFBE4C2ACE1ABE8A64FB /* PKHUDTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE985403864CE883C2C5EE5C7F77B7 /* PKHUDTextView.swift */; };
+		72E94CCB728FC43E24ACCF83B420EFC7 /* OIDFieldMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = A56E18890D5C26482709E3D923CE697F /* OIDFieldMapping.m */; };
+		752935D37B27C4524979795B8403211D /* OIDExternalUserAgentRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D70C46D6CE71FEDE7FFF60C02FB7586 /* OIDExternalUserAgentRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76A0AF52448EFBE526C80336596182EE /* AppIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468674EA53877F05A3A06F4454887DB4 /* AppIdentity.swift */; };
+		7968F501CAC6C10FD5951D8E475A3F88 /* BMSURLSessionUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75170EA6E0CFA51E9EFD013F89A1C1BC /* BMSURLSessionUtility.swift */; };
+		7A6888EF4D69608167457B15555A5FB2 /* OIDEndSessionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D45615E456DE263AF372063F887D6F /* OIDEndSessionResponse.m */; };
+		7F6E015D616C80C1FDC9C2EBAACD8BF4 /* OIDEndSessionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ED786B64666221029588437F54B752E2 /* OIDEndSessionRequest.m */; };
+		80CD7F034DCB65E8C64598013FCDDD43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DBC1182C8415D263FF3E4D6A690614 /* Foundation.framework */; };
+		841871018EFD1366C198D9B0484DAC38 /* BMSResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DD0419C27E35D35562FDB88CEE6DEF /* BMSResponse.swift */; };
+		84721D9C8FAD373C09FFCDA8D18F212A /* OIDErrorUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E620E048204A045F9F0DE3F2026E9EF /* OIDErrorUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		897FC477B696A506F03DBFEB46328D54 /* PKHUDAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A40129509E8E80CDA810FC7F3CCDD3E /* PKHUDAnimating.swift */; };
+		89FFF72E1045E77A044AA0B79796AAB6 /* WindowRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E377CC985DC5FEA53BDEB467D72EDCFB /* WindowRootViewController.swift */; };
+		8B6E1D395C6B786C759E2EE407FA1FB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05F70BE1A086DA32A7B5D995E916EF0 /* Images.xcassets */; };
+		8CF9E0A7ADD7449CF2026546440EBB1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DBC1182C8415D263FF3E4D6A690614 /* Foundation.framework */; };
+		8EAC625BB89EA963C8F190AE98F70B70 /* RequestMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A076F87005DDFD0C2FE702401F5B03 /* RequestMetadata.swift */; };
+		9050D2AF3D97A5AFF66219C94D272C78 /* OIDExternalUserAgentCatalyst.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C10662FD971DDE4FE9D34F1B8F918 /* OIDExternalUserAgentCatalyst.m */; };
+		9301C13B1C2F01C18CBEDF320060FAE9 /* OIDAuthorizationService+IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2399234121AB41170B6F76FCD1A16 /* OIDAuthorizationService+IOS.m */; };
+		95608C7ACBB5A19AFA0539E45409DF90 /* BMSAnalyticsAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F118E7817837E9D99AE426994B2BD2 /* BMSAnalyticsAPI-dummy.m */; };
+		97C68AA109473E555C22E145E9686ABF /* BMSPush-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3118A931D9521F7633F9AE2C1E3E548F /* BMSPush-dummy.m */; };
+		980379E3B08EE6D482F86FBAE9B3E57F /* OIDTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DB382AFEF11E350916640AC49A74D7A6 /* OIDTokenResponse.m */; };
+		9B3E18F6BAC42DAC2A8BD0E2C3FFFF2C /* OIDTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A057CFF6F5E7CE3670E9AEB92BE86628 /* OIDTokenRequest.m */; };
+		A12D248E6C1951302E5463446D1B2E6F /* OIDError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBDF090D0273BA9DD1E61D062AE9739 /* OIDError.m */; };
+		A22FF8ABF41523D88E6C76202113F053 /* PKHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ACB2ACE1435350C7F0DF2C441C054C0 /* PKHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2E3B05C4F7DF7F764DE2735572C97F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DBC1182C8415D263FF3E4D6A690614 /* Foundation.framework */; };
+		A35244C9342474C7118D33BE2996BF00 /* OIDAuthorizationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBF9A16CFC1548D2E0FE5028171734F /* OIDAuthorizationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A636502A305EA73DF8BE72146B23888D /* OIDURLSessionProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8B81473DF19035161151B44383A81 /* OIDURLSessionProvider.m */; };
+		A8695A1BD9FC8D1A63F5E1B74D7E8424 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C4D4F6746515A1280BE839A6DCA633 /* Response.swift */; };
+		A88A28AD0AE43322D415B1F83183EB66 /* AppAuth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3BDCDE0C37266D951FEBD45BE897FD /* AppAuth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9ACCD900E69758B4F60CF9111BD8CD3 /* BMSPush-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E00D5713E28052BB004D8B7F57A66E /* BMSPush-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9BBB81C38ED12E9CF718ACD96A3E50A /* OIDTokenResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = F70DC851451C89D36A21339DDDD1E6CD /* OIDTokenResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD01060C8D0427A83796DA370460A019 /* OIDAuthState.m in Sources */ = {isa = PBXBuildFile; fileRef = D589EC497C510CCD86FEB49C5A8945E6 /* OIDAuthState.m */; };
+		B40B071395954881429075EA56BF9512 /* OIDExternalUserAgentIOSCustomBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1670DDA5CEC65AA43BF67B249EE7A531 /* OIDExternalUserAgentIOSCustomBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB4A42BC10B2E69F4579A26457C28CDA /* OIDRegistrationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C482518EA3A45B799B53553B4E1340F /* OIDRegistrationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCCED184234649D45324D05A872E9300 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0797823AA9FB4C730644083124C835A5 /* Window.swift */; };
+		BCE615BC9CAC513B60DA15CC174E1474 /* BMSURLSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115D7BC609486D996F08485A5C9B011C /* BMSURLSessionDelegate.swift */; };
+		C139814202194D974800E5338E6ECCC4 /* BaseUserIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4109D096CBEDE85A7B88AFE703C826 /* BaseUserIdentity.swift */; };
+		C2636D19CCE19A2042D35425D3CCC620 /* AppAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90447A8D241E38A557900BC915B86D69 /* AppAuth-dummy.m */; };
+		C8976FBA6C401ACD821CC8008118D275 /* OIDIDToken.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5EEBB400FF888E5196E7BB23C56753 /* OIDIDToken.m */; };
+		C9088CDD673321B9966EA98138BAAB74 /* BMSPushClientOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002CB5978CB4E5E21D782AD262CBB8D /* BMSPushClientOptions.swift */; };
+		C94FD9E444C32D392420F78EE70B5430 /* BMSPushNotificationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C46FC13B3054558F945A288C2D242C /* BMSPushNotificationAction.swift */; };
+		CCF47FFB15F39E4ACAF3C9320138B20E /* OIDExternalUserAgentCatalyst.h in Headers */ = {isa = PBXBuildFile; fileRef = B86CC834F4C767461006DBF0845B53DF /* OIDExternalUserAgentCatalyst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCFD611CFBA40CB97C9DD4C56980E9BF /* BMSPushUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689919B245A10A76D1CA75CC286DBFAA /* BMSPushUtils.swift */; };
+		CF87B91415F61D83DE60044756ADA14A /* PKHUDRotatingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4432A8F60D33E2F0ED9F26B68E8788D /* PKHUDRotatingImageView.swift */; };
+		D08E73CE77698A4EC2EFF175667F92A8 /* OIDEndSessionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B69EC9097D02BF563EB3D3E043DA5D2 /* OIDEndSessionRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D114AA899B9D44235F67DE4F8B014AD9 /* AuthorizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65A84AFA1C2EB2951CD125CE22BC602 /* AuthorizationManager.swift */; };
+		D4868F4AA31A6BC54F7F901DD5BB19F7 /* PKHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BB4A32353274673750A08BC821BE59 /* PKHUD-dummy.m */; };
+		D53BA1EB19FC853BD345171432069A98 /* OIDScopeUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = EF4F2DFCB69FFAC203B891A0785A60F8 /* OIDScopeUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5642F71CE45450DF87F7190152DB0F3 /* OIDAuthorizationService+IOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 993AB7E35CC2F076EBACDC6D952513E7 /* OIDAuthorizationService+IOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5F1257E77DA1688FFB0E03C5DC45CC5 /* BMSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70ED5A3B306AF2069CB1EB8F27E54C3 /* BMSClient.swift */; };
+		D7D49B9129898D8BED968B9407310B1E /* OIDAuthorizationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C647AF48BF5E7C14FA597263D1F0B6 /* OIDAuthorizationResponse.m */; };
+		D9CE2B486C831679A3D8947AC7E854D5 /* OIDExternalUserAgentIOSCustomBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB02DA266FE031DD1929324C6C8B033 /* OIDExternalUserAgentIOSCustomBrowser.m */; };
+		DE601C5596687C11434FC0E08F30F076 /* OIDResponseTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCB1251C1CD8B64B61300C254D841CC /* OIDResponseTypes.m */; };
+		DF035279E713FDA8F7FA55C1EE2DE81C /* OIDGrantTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FB035043AA9DBB485D3FF7C719BC1B /* OIDGrantTypes.m */; };
+		E0A045EFE8632A1839FF0F23C4797FB7 /* OIDServiceConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C655D67C957A14AF1FECC49FFF3F3F /* OIDServiceConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2D4DF482E8F882B8FEC15020D3AEAA9 /* OIDIDToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4B3837ABC66730BF06334F2387603A /* OIDIDToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5C54585B5B2C0D195F4CEA28F28E67D /* OIDScopes.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC4C550CD51B56B8D4AEC1E3820243C /* OIDScopes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E683FAD3781CD4FF38D3B78860451945 /* OIDServiceDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = C875267C8208F4D5CEA2B924271D68E2 /* OIDServiceDiscovery.m */; };
+		E68DFBC20982FEA7114CBB25144D3086 /* OIDAuthState+IOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C9541FB715FB2352F9978A83F4AD17 /* OIDAuthState+IOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6C35E969D7E058FB7DEF5F8D6B735ED /* BMSAnalyticsAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE882B9896312C19E9F1996DB94DBFD9 /* BMSAnalyticsAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7C4B069E5EE744A164261AF2371B26F /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696083D6A156A26EFD05682CE631ABD8 /* Analytics.swift */; };
+		E966191B1149AEE7B5295921B2AD7381 /* OIDServiceConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D70D03F9887A80DDAF4DEE30773B79BE /* OIDServiceConfiguration.m */; };
+		EB021433DB190455EEC43FB544C0494A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3116D526E7FEDDD8FC8F736B238860 /* Request.swift */; };
+		EBE36AFF9964F232ABAEA6E260C5CF82 /* OIDServiceDiscovery.h in Headers */ = {isa = PBXBuildFile; fileRef = A3018F8E2660CCC7737BCE1D677AAC8B /* OIDServiceDiscovery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F10515AD673CEF7DE3BBC1F6729213E2 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 0D4D71478B03CA8922C077D5D40D09FE /* module.modulemap */; };
+		F2ACA0542B09C5E577D025AAADFA4466 /* BMSPushUrlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C33593134087F1DFA117E6BBA12DC0A /* BMSPushUrlBuilder.swift */; };
+		F376957848E8456F3A5490E9FA82D411 /* PKHUDResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BFCB2D5C605270A32522299AED3B5AE6 /* PKHUDResources.bundle */; };
+		F3DFAF511BD2F9E1EEB738E979292245 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB304691BC7985987E9F60E0454203CF /* Error.swift */; };
+		F6E75F5FD0501A6E1464C1153B20CB97 /* OIDDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = D8A2823E34577FB8A377139E70D6D25E /* OIDDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8E0AB483598D2FA470BB79B1B2DED5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DBC1182C8415D263FF3E4D6A690614 /* Foundation.framework */; };
+		F950D208FA4D412081B58F83807785A4 /* OIDRegistrationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 047011877C80C0172AA68DA0C458926B /* OIDRegistrationResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDE948CC3A35F70EAEB413E5DE09C5ED /* OIDRegistrationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ED10D06D1BE9CC2175E0E824A974127B /* OIDRegistrationResponse.m */; };
+		FECEA264ACF4ACA1F7C5401CE8E1A238 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2CF03EFD38F3826BDECC443B912A2 /* HUD.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		002D75782F4F8991FCC94EB155ED0909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F7332F1050B42A501616421AC869EB;
+			remoteInfo = "PKHUD-PKHUDResources";
+		};
+		1246931CDA955CF61C28E19137DBEDC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C642AA10FB29936669CC269F42079C6;
+			remoteInfo = AppAuth;
+		};
+		6A5B2069967540E7F1993797C1E6A5B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364873017BA37260EF589D44B6B73D21;
+			remoteInfo = PKHUD;
+		};
+		7FD4218F9E151212660A64014DA2E156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEDA8B2D5269092D51AF272AC59CDB8F;
+			remoteInfo = BMSAnalyticsAPI;
+		};
+		B35053F84753C2BB53D6E21850F6843E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEDA8B2D5269092D51AF272AC59CDB8F;
+			remoteInfo = BMSAnalyticsAPI;
+		};
+		BBC479ED47D566A4B95CE963389F00AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7775B5F5F5E3CCCD0A1E173154F35ED;
+			remoteInfo = BMSCore;
+		};
+		CBC86C472022331A5AE6F724979FDC3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABA3D02F3CA9345DBFCF795E07BF2FC;
+			remoteInfo = BMSPush;
+		};
+		DBE16DBEA58C0403B4E166625B237520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3282A5B2437E609EEB85861D7ECE717;
+			remoteInfo = AppCenter;
+		};
+		E105328987C7A0695D7D9292F44D8CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7775B5F5F5E3CCCD0A1E173154F35ED;
+			remoteInfo = BMSCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010230156C911C9FF7D4059C72E97603 /* BMSAnalyticsAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BMSAnalyticsAPI.release.xcconfig; sourceTree = "<group>"; };
+		028FECB51F574C9EBE53D73E17BAB43C /* OIDURLSessionProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDURLSessionProvider.h; path = Source/AppAuthCore/OIDURLSessionProvider.h; sourceTree = "<group>"; };
+		02D115C26BB7B4C792CFFEEADFA20EEB /* OIDScopeUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDScopeUtilities.m; path = Source/AppAuthCore/OIDScopeUtilities.m; sourceTree = "<group>"; };
+		02F118E7817837E9D99AE426994B2BD2 /* BMSAnalyticsAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BMSAnalyticsAPI-dummy.m"; sourceTree = "<group>"; };
+		032C1B449A0CF0E0F5D9F9C1583D9E12 /* BMSAnalyticsAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BMSAnalyticsAPI-prefix.pch"; sourceTree = "<group>"; };
+		03735D6F69D8321504BE3F4F175B07B2 /* BMSCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BMSCore.release.xcconfig; sourceTree = "<group>"; };
+		047011877C80C0172AA68DA0C458926B /* OIDRegistrationResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDRegistrationResponse.h; path = Source/AppAuthCore/OIDRegistrationResponse.h; sourceTree = "<group>"; };
+		05A2656F46E8CA87E77A035911B33D10 /* PKHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PKHUD; path = PKHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0797823AA9FB4C730644083124C835A5 /* Window.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Window.swift; path = PKHUD/Window.swift; sourceTree = "<group>"; };
+		08CA0260F882A35F58A96297CB580EFC /* OIDAuthorizationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDAuthorizationRequest.m; path = Source/AppAuthCore/OIDAuthorizationRequest.m; sourceTree = "<group>"; };
+		0A40129509E8E80CDA810FC7F3CCDD3E /* PKHUDAnimating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimating.swift; path = PKHUD/PKHUDAnimating.swift; sourceTree = "<group>"; };
+		0A98D4C93845FC30E12F1D8119AA4530 /* BaseDeviceIdentity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseDeviceIdentity.swift; path = Source/Security/Identity/BaseDeviceIdentity.swift; sourceTree = "<group>"; };
+		0C4377D5BE06FAB77082B1DADA99D1ED /* BMSPush-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BMSPush-prefix.pch"; sourceTree = "<group>"; };
+		0D4D71478B03CA8922C077D5D40D09FE /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = module.modulemap; path = Source/Resources/module.modulemap; sourceTree = "<group>"; };
+		0F79D068CEEDDE744C615908DA692E3E /* AppAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppAuth.debug.xcconfig; sourceTree = "<group>"; };
+		115D7BC609486D996F08485A5C9B011C /* BMSURLSessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMSURLSessionDelegate.swift; path = "Source/Network Requests/BMSURLSessionDelegate.swift"; sourceTree = "<group>"; };
+		130C10662FD971DDE4FE9D34F1B8F918 /* OIDExternalUserAgentCatalyst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDExternalUserAgentCatalyst.m; path = Source/AppAuth/iOS/OIDExternalUserAgentCatalyst.m; sourceTree = "<group>"; };
+		1670DDA5CEC65AA43BF67B249EE7A531 /* OIDExternalUserAgentIOSCustomBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentIOSCustomBrowser.h; path = Source/AppAuth/iOS/OIDExternalUserAgentIOSCustomBrowser.h; sourceTree = "<group>"; };
+		1889C1A80900D85CAFC842553FE0E480 /* AppCenter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AppCenter-xcframeworks.sh"; sourceTree = "<group>"; };
+		18BB4A32353274673750A08BC821BE59 /* PKHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PKHUD-dummy.m"; sourceTree = "<group>"; };
+		197C4800AAF58304E6A9603E8D71845D /* OIDAuthState+IOS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OIDAuthState+IOS.m"; path = "Source/AppAuth/iOS/OIDAuthState+IOS.m"; sourceTree = "<group>"; };
+		1A214E41D5C5BC33A5C146EC9DCF5B93 /* FrameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameView.swift; path = PKHUD/FrameView.swift; sourceTree = "<group>"; };
+		1AF878D514A36C6F6CEC4D87DA3FE933 /* AppAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppAuth.h; path = Source/AppAuth.h; sourceTree = "<group>"; };
+		1B8B5960756C478AD312919F58F516D5 /* AppAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppAuth-prefix.pch"; sourceTree = "<group>"; };
+		1D7F52E9440D6BFF0B1159CE55091460 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SafariServices.framework; sourceTree = DEVELOPER_DIR; };
+		1F2E1FE8E81837BF0197AA25BA4D39A7 /* AppCenter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = AppCenter.xcframework; path = "AppCenter-SDK-Apple/AppCenter.xcframework"; sourceTree = "<group>"; };
+		213C2C452901B5E26407D65FC9288201 /* AppCenterAnalytics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = AppCenterAnalytics.xcframework; path = "AppCenter-SDK-Apple/AppCenterAnalytics.xcframework"; sourceTree = "<group>"; };
+		243C32B1456EF9E901A63FDA1B7E835E /* PKHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-umbrella.h"; sourceTree = "<group>"; };
+		2A64B70F5EBF525EF0009F138598D28C /* PKHUDProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDProgressView.swift; path = PKHUD/PKHUDProgressView.swift; sourceTree = "<group>"; };
+		2ACB2ACE1435350C7F0DF2C441C054C0 /* PKHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKHUD.h; path = PKHUD/PKHUD.h; sourceTree = "<group>"; };
+		2C33593134087F1DFA117E6BBA12DC0A /* BMSPushUrlBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMSPushUrlBuilder.swift; path = Source/BMSPushUrlBuilder.swift; sourceTree = "<group>"; };
+		2D05186F0990F5E7C78775E0CDA9BEEA /* PKHUDAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAssets.swift; path = PKHUD/PKHUDAssets.swift; sourceTree = "<group>"; };
+		2D1C791948615F829B4F86AB4BDCF169 /* OIDURLQueryComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDURLQueryComponent.m; path = Source/AppAuthCore/OIDURLQueryComponent.m; sourceTree = "<group>"; };
+		2F4109D096CBEDE85A7B88AFE703C826 /* BaseUserIdentity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseUserIdentity.swift; path = Source/Security/Identity/BaseUserIdentity.swift; sourceTree = "<group>"; };
+		3118A931D9521F7633F9AE2C1E3E548F /* BMSPush-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BMSPush-dummy.m"; sourceTree = "<group>"; };
+		34863D6A74B56A5DD70775B7BCEC5223 /* BMSCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BMSCore.modulemap; sourceTree = "<group>"; };
+		36B0DEE3EE7E10AC2578D20C2922789B /* BMSAnalyticsAPI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BMSAnalyticsAPI; path = BMSAnalyticsAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B3260C5E18141084C94B4F3DEF9656 /* Pods-EmergencyPreparednessApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EmergencyPreparednessApp"; path = Pods_EmergencyPreparednessApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		388C90E719D5A80037BD4152F6625645 /* PKHUDWideBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDWideBaseView.swift; path = PKHUD/PKHUDWideBaseView.swift; sourceTree = "<group>"; };
+		3C482518EA3A45B799B53553B4E1340F /* OIDRegistrationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDRegistrationRequest.h; path = Source/AppAuthCore/OIDRegistrationRequest.h; sourceTree = "<group>"; };
+		3CC53B88AACC9B10A0814818F2C690C1 /* BMSRichPushNotificationOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMSRichPushNotificationOptions.swift; path = Source/BMSRichPushNotificationOptions.swift; sourceTree = "<group>"; };
+		3D7559821C66CD1CDE86860D785AE5CC /* Pods-EmergencyPreparednessApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmergencyPreparednessApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E620E048204A045F9F0DE3F2026E9EF /* OIDErrorUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDErrorUtilities.h; path = Source/AppAuthCore/OIDErrorUtilities.h; sourceTree = "<group>"; };
+		3F937046690C02FF55E39722B65AC1B4 /* BaseAuthorizationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseAuthorizationManager.swift; path = Source/Security/BaseAuthorizationManager.swift; sourceTree = "<group>"; };
+		3FD1B4C1246D643E9476438C28048FA8 /* AppAuth */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AppAuth; path = AppAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BB35871521AF709482B08EBEE9EF70 /* OIDAuthorizationService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDAuthorizationService.m; path = Source/AppAuthCore/OIDAuthorizationService.m; sourceTree = "<group>"; };
+		42C2E94E249976CB988FDC2AAB8198AF /* UserIdentity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserIdentity.swift; path = Source/Security/Identity/UserIdentity.swift; sourceTree = "<group>"; };
+		45BE985403864CE883C2C5EE5C7F77B7 /* PKHUDTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDTextView.swift; path = PKHUD/PKHUDTextView.swift; sourceTree = "<group>"; };
+		46071CA308EE98A32CA4ED2A5C2B84CC /* OIDError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDError.h; path = Source/AppAuthCore/OIDError.h; sourceTree = "<group>"; };
+		468674EA53877F05A3A06F4454887DB4 /* AppIdentity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppIdentity.swift; path = Source/Security/Identity/AppIdentity.swift; sourceTree = "<group>"; };
+		48B8493F082AE2DDAFCDF7C02C9DCC30 /* Pods-EmergencyPreparednessApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmergencyPreparednessApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		48DBC1182C8415D263FF3E4D6A690614 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		49059FA34FC0F04FEDF2CB0045D7BC58 /* BMSPush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BMSPush.release.xcconfig; sourceTree = "<group>"; };
+		49DD0419C27E35D35562FDB88CEE6DEF /* BMSResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMSResponse.swift; path = Source/BMSResponse.swift; sourceTree = "<group>"; };
+		4DBDF090D0273BA9DD1E61D062AE9739 /* OIDError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDError.m; path = Source/AppAuthCore/OIDError.m; sourceTree = "<group>"; };
+		534C82C1D602DDF8CB00AC9699BDB92A /* Pods-EmergencyPreparednessApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmergencyPreparednessApp-Info.plist"; sourceTree = "<group>"; };
+		53E3A991F0301CA744266F59569DBCA9 /* OIDAuthorizationResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthorizationResponse.h; path = Source/AppAuthCore/OIDAuthorizationResponse.h; sourceTree = "<group>"; };
+		5619382A7E7674E1E34C80BE30E112CA /* AppCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.release.xcconfig; sourceTree = "<group>"; };
+		56F6C22C0E3A1612C8CF1BE064F70916 /* ResourceBundle-PKHUDResources-PKHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PKHUDResources-PKHUD-Info.plist"; sourceTree = "<group>"; };
+		5B3AC1EECD1385829525E4127F9980F6 /* OIDExternalUserAgentIOS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDExternalUserAgentIOS.m; path = Source/AppAuth/iOS/OIDExternalUserAgentIOS.m; sourceTree = "<group>"; };
+		5D0752822E433A6ABA16F44F4B07952A /* BMSCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BMSCore-prefix.pch"; sourceTree = "<group>"; };
+		5F912AEA3FEFDB2F6404895824D0E657 /* BaseAppIdentity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseAppIdentity.swift; path = Source/Security/Identity/BaseAppIdentity.swift; sourceTree = "<group>"; };
+		646A759D12A2C5A4E0803105A453E500 /* PKHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PKHUD.modulemap; sourceTree = "<group>"; };
+		660E6A58AC1B1025D0EECF8865F2C6A6 /* OIDAuthStateErrorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthStateErrorDelegate.h; path = Source/AppAuthCore/OIDAuthStateErrorDelegate.h; sourceTree = "<group>"; };
+		689919B245A10A76D1CA75CC286DBFAA /* BMSPushUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMSPushUtils.swift; path = Source/BMSPushUtils.swift; sourceTree = "<group>"; };
+		696083D6A156A26EFD05682CE631ABD8 /* Analytics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Analytics.swift; path = Source/Analytics.swift; sourceTree = "<group>"; };
+		69D5A857C2466CD4CF32B80C7855D1AC /* PKHUDSquareBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSquareBaseView.swift; path = PKHUD/PKHUDSquareBaseView.swift; sourceTree = "<group>"; };
+		70B2CE449C650B838E3B0E89ED5748FD /* BMSConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMSConstants.swift; path = Source/BMSConstants.swift; sourceTree = "<group>"; };
+		73384EE1152F8F7B7A31950740F42704 /* OIDExternalUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgent.h; path = Source/AppAuthCore/OIDExternalUserAgent.h; sourceTree = "<group>"; };
+		75170EA6E0CFA51E9EFD013F89A1C1BC /* BMSURLSessionUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMSURLSessionUtility.swift; path = "Source/Network Requests/BMSURLSessionUtility.swift"; sourceTree = "<group>"; };
+		761B5B01E43F181A408427783E91D418 /* OIDAuthState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthState.h; path = Source/AppAuthCore/OIDAuthState.h; sourceTree = "<group>"; };
+		7654180805BBC3781A7061954F63BF2A /* PKHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUD.swift; path = PKHUD/PKHUD.swift; sourceTree = "<group>"; };
+		78439433329E78001807C4EA32CDC032 /* Pods-EmergencyPreparednessApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmergencyPreparednessApp-dummy.m"; sourceTree = "<group>"; };
+		786E03C5B2CE1037183C9FC3107963D1 /* DeviceIdentity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceIdentity.swift; path = Source/Security/Identity/DeviceIdentity.swift; sourceTree = "<group>"; };
+		799A1F98B2E9A1697DA0BD11E00E2376 /* OIDTokenUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDTokenUtilities.m; path = Source/AppAuthCore/OIDTokenUtilities.m; sourceTree = "<group>"; };
+		7CD06227776C014C8E7B76FE4E677705 /* AppCenterCrashes.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = AppCenterCrashes.xcframework; path = "AppCenter-SDK-Apple/AppCenterCrashes.xcframework"; sourceTree = "<group>"; };
+		7D1C8D1ECECF6597CD911B5DB548B2F6 /* AppAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppAuth.release.xcconfig; sourceTree = "<group>"; };
+		810F19E7BEED58E21803753C333B81E1 /* Pods-EmergencyPreparednessApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmergencyPreparednessApp.release.xcconfig"; sourceTree = "<group>"; };
+		8171B86AF55D5CE54A27C283DD0662FE /* BMSPush-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BMSPush-Info.plist"; sourceTree = "<group>"; };
+		84F52EF415193446AFC4B3EE53702BB0 /* Pods-EmergencyPreparednessApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmergencyPreparednessApp-umbrella.h"; sourceTree = "<group>"; };
+		87451DD82D06C89D953F4C8EC491CD59 /* PKHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHUD.debug.xcconfig; sourceTree = "<group>"; };
+		8AA88BAE6B941AE24B8DAB9BBEC3AA63 /* BMSAnalyticsAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BMSAnalyticsAPI.debug.xcconfig; sourceTree = "<group>"; };
+		8AF2399234121AB41170B6F76FCD1A16 /* OIDAuthorizationService+IOS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OIDAuthorizationService+IOS.m"; path = "Source/AppAuth/iOS/OIDAuthorizationService+IOS.m"; sourceTree = "<group>"; };
+		8B69EC9097D02BF563EB3D3E043DA5D2 /* OIDEndSessionRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDEndSessionRequest.h; path = Source/AppAuthCore/OIDEndSessionRequest.h; sourceTree = "<group>"; };
+		8B98C6D534AD6570A4A7EA7BF66BAA0F /* OIDURLQueryComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDURLQueryComponent.h; path = Source/AppAuthCore/OIDURLQueryComponent.h; sourceTree = "<group>"; };
+		8D0F896E3A0C3003167372F3DC2CB505 /* AppCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.debug.xcconfig; sourceTree = "<group>"; };
+		8D60B21C42E4D2153F7A842B5A2EBA4A /* BMSPushNotificationActionCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMSPushNotificationActionCategory.swift; path = Source/BMSPushNotificationActionCategory.swift; sourceTree = "<group>"; };
+		8D70C46D6CE71FEDE7FFF60C02FB7586 /* OIDExternalUserAgentRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentRequest.h; path = Source/AppAuthCore/OIDExternalUserAgentRequest.h; sourceTree = "<group>"; };
+		8DDD5A995A30538474D9EB5C92F584D4 /* BMSPush */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BMSPush; path = BMSPush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90447A8D241E38A557900BC915B86D69 /* AppAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AppAuth-dummy.m"; sourceTree = "<group>"; };
+		90D34EA5756FAE547322BF53FECC924F /* BMSPush.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BMSPush.modulemap; sourceTree = "<group>"; };
+		92A7BA7E5473536EBBA84A9473F0BFE3 /* OIDTokenUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDTokenUtilities.h; path = Source/AppAuthCore/OIDTokenUtilities.h; sourceTree = "<group>"; };
+		92C655D67C957A14AF1FECC49FFF3F3F /* OIDServiceConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDServiceConfiguration.h; path = Source/AppAuthCore/OIDServiceConfiguration.h; sourceTree = "<group>"; };
+		93EF19D21A8EE08609B8E57B3E92503C /* PKHUDAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimation.swift; path = PKHUD/PKHUDAnimation.swift; sourceTree = "<group>"; };
+		993AB7E35CC2F076EBACDC6D952513E7 /* OIDAuthorizationService+IOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OIDAuthorizationService+IOS.h"; path = "Source/AppAuth/iOS/OIDAuthorizationService+IOS.h"; sourceTree = "<group>"; };
+		99C4A30C7CDF4F1A886577AA079F6077 /* PKHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHUD.release.xcconfig; sourceTree = "<group>"; };
+		9B5297962DE5482AB025B6A0E25745CD /* BMSAnalyticsAPI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BMSAnalyticsAPI-Info.plist"; sourceTree = "<group>"; };
+		9BAE1DBE2D9A62AE79603A1D8B0D70D0 /* Pods-EmergencyPreparednessApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmergencyPreparednessApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9CCB1251C1CD8B64B61300C254D841CC /* OIDResponseTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDResponseTypes.m; path = Source/AppAuthCore/OIDResponseTypes.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DD4EA247B8D4C48A16B56638C78C95D /* OIDTokenRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDTokenRequest.h; path = Source/AppAuthCore/OIDTokenRequest.h; sourceTree = "<group>"; };
+		9E5D47FDF209CEB2308D026543E33C3C /* AppAuth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AppAuth-Info.plist"; sourceTree = "<group>"; };
+		9EBDF583784AF43527EFE4A2A6B561EE /* PKHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PKHUD-Info.plist"; sourceTree = "<group>"; };
+		9F4B3837ABC66730BF06334F2387603A /* OIDIDToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDIDToken.h; path = Source/AppAuthCore/OIDIDToken.h; sourceTree = "<group>"; };
+		9F9E736595DB537E63E307A41DEA97F7 /* AppAuthCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppAuthCore.h; path = Source/AppAuthCore.h; sourceTree = "<group>"; };
+		A057CFF6F5E7CE3670E9AEB92BE86628 /* OIDTokenRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDTokenRequest.m; path = Source/AppAuthCore/OIDTokenRequest.m; sourceTree = "<group>"; };
+		A0C2CF03EFD38F3826BDECC443B912A2 /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = PKHUD/HUD.swift; sourceTree = "<group>"; };
+		A3018F8E2660CCC7737BCE1D677AAC8B /* OIDServiceDiscovery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDServiceDiscovery.h; path = Source/AppAuthCore/OIDServiceDiscovery.h; sourceTree = "<group>"; };
+		A35B17A330214345007A5418CAA9413B /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Source/Logger.swift; sourceTree = "<group>"; };
+		A56E18890D5C26482709E3D923CE697F /* OIDFieldMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDFieldMapping.m; path = Source/AppAuthCore/OIDFieldMapping.m; sourceTree = "<group>"; };
+		A5A076F87005DDFD0C2FE702401F5B03 /* RequestMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestMetadata.swift; path = Source/RequestMetadata.swift; sourceTree = "<group>"; };
+		AA5E02BD0290FB5E711E403CE5DE8151 /* OIDEndSessionResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDEndSessionResponse.h; path = Source/AppAuthCore/OIDEndSessionResponse.h; sourceTree = "<group>"; };
+		AA7A2897D4D5548CE871638CC46F2E21 /* AppAuth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AppAuth.modulemap; sourceTree = "<group>"; };
+		AB304691BC7985987E9F60E0454203CF /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		AB3116D526E7FEDDD8FC8F736B238860 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = "Source/Network Requests/Request.swift"; sourceTree = "<group>"; };
+		B3C9541FB715FB2352F9978A83F4AD17 /* OIDAuthState+IOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OIDAuthState+IOS.h"; path = "Source/AppAuth/iOS/OIDAuthState+IOS.h"; sourceTree = "<group>"; };
+		B5D461AB3351A9B346926AACC7608913 /* OIDAuthStateChangeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthStateChangeDelegate.h; path = Source/AppAuthCore/OIDAuthStateChangeDelegate.h; sourceTree = "<group>"; };
+		B70ED5A3B306AF2069CB1EB8F27E54C3 /* BMSClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMSClient.swift; path = Source/BMSClient.swift; sourceTree = "<group>"; };
+		B86CC834F4C767461006DBF0845B53DF /* OIDExternalUserAgentCatalyst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentCatalyst.h; path = Source/AppAuth/iOS/OIDExternalUserAgentCatalyst.h; sourceTree = "<group>"; };
+		B87F1CD1B4ADFF4D942B356CCC700C44 /* BMSCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BMSCore-Info.plist"; sourceTree = "<group>"; };
+		BAF06D51A491132F7984DD5AD2361655 /* PKHUDSuccessView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSuccessView.swift; path = PKHUD/PKHUDSuccessView.swift; sourceTree = "<group>"; };
+		BC956AD7AEB0223AED606C3F15DC4553 /* PKHUDErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDErrorView.swift; path = PKHUD/PKHUDErrorView.swift; sourceTree = "<group>"; };
+		BDAD078BFEC6EAE977DA70433334FD3C /* BMSCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BMSCore-dummy.m"; sourceTree = "<group>"; };
+		BEC4C550CD51B56B8D4AEC1E3820243C /* OIDScopes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDScopes.h; path = Source/AppAuthCore/OIDScopes.h; sourceTree = "<group>"; };
+		BFCB2D5C605270A32522299AED3B5AE6 /* PKHUDResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PKHUDResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05F70BE1A086DA32A7B5D995E916EF0 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PKHUD/Images.xcassets; sourceTree = "<group>"; };
+		C2C46FC13B3054558F945A288C2D242C /* BMSPushNotificationAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMSPushNotificationAction.swift; path = Source/BMSPushNotificationAction.swift; sourceTree = "<group>"; };
+		C2C4D4F6746515A1280BE839A6DCA633 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = "Source/Network Requests/Response.swift"; sourceTree = "<group>"; };
+		C2D23EEF7811D19009D73E0110C190BF /* OIDErrorUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDErrorUtilities.m; path = Source/AppAuthCore/OIDErrorUtilities.m; sourceTree = "<group>"; };
+		C2D45615E456DE263AF372063F887D6F /* OIDEndSessionResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDEndSessionResponse.m; path = Source/AppAuthCore/OIDEndSessionResponse.m; sourceTree = "<group>"; };
+		C4214695EA5A89F12C2E62B167B47148 /* OIDScopes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDScopes.m; path = Source/AppAuthCore/OIDScopes.m; sourceTree = "<group>"; };
+		C5E00D5713E28052BB004D8B7F57A66E /* BMSPush-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BMSPush-umbrella.h"; sourceTree = "<group>"; };
+		C65A84AFA1C2EB2951CD125CE22BC602 /* AuthorizationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthorizationManager.swift; path = Source/Security/AuthorizationManager.swift; sourceTree = "<group>"; };
+		C662C65FF4B16AA9B00225544D81D810 /* BMSCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BMSCore.debug.xcconfig; sourceTree = "<group>"; };
+		C875267C8208F4D5CEA2B924271D68E2 /* OIDServiceDiscovery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDServiceDiscovery.m; path = Source/AppAuthCore/OIDServiceDiscovery.m; sourceTree = "<group>"; };
+		CA85825531636D4DF60638DF4482A201 /* BMSPushClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMSPushClient.swift; path = Source/BMSPushClient.swift; sourceTree = "<group>"; };
+		CAA5C4A5A4210F0B93B57E8FCCA8F28E /* BMSPush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BMSPush.debug.xcconfig; sourceTree = "<group>"; };
+		CBB02DA266FE031DD1929324C6C8B033 /* OIDExternalUserAgentIOSCustomBrowser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDExternalUserAgentIOSCustomBrowser.m; path = Source/AppAuth/iOS/OIDExternalUserAgentIOSCustomBrowser.m; sourceTree = "<group>"; };
+		D246B5EAB743C175A678D7F944DC75DA /* OIDFieldMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDFieldMapping.h; path = Source/AppAuthCore/OIDFieldMapping.h; sourceTree = "<group>"; };
+		D4432A8F60D33E2F0ED9F26B68E8788D /* PKHUDRotatingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDRotatingImageView.swift; path = PKHUD/PKHUDRotatingImageView.swift; sourceTree = "<group>"; };
+		D4BC9646AE6D2F1F348CDA42439643D4 /* OIDResponseTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDResponseTypes.h; path = Source/AppAuthCore/OIDResponseTypes.h; sourceTree = "<group>"; };
+		D589EC497C510CCD86FEB49C5A8945E6 /* OIDAuthState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDAuthState.m; path = Source/AppAuthCore/OIDAuthState.m; sourceTree = "<group>"; };
+		D643CBC24179478ED00C76F2E0D3EFF0 /* Pods-EmergencyPreparednessApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmergencyPreparednessApp-frameworks.sh"; sourceTree = "<group>"; };
+		D70D03F9887A80DDAF4DEE30773B79BE /* OIDServiceConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDServiceConfiguration.m; path = Source/AppAuthCore/OIDServiceConfiguration.m; sourceTree = "<group>"; };
+		D731BFF0531A6626F4A4843E47797A09 /* BMSLocalPushNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMSLocalPushNotification.swift; path = Source/BMSLocalPush/BMSLocalPushNotification.swift; sourceTree = "<group>"; };
+		D7819DC8FF01D498E3395A6918A3375D /* OIDAuthorizationService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthorizationService.h; path = Source/AppAuthCore/OIDAuthorizationService.h; sourceTree = "<group>"; };
+		D8A2823E34577FB8A377139E70D6D25E /* OIDDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDDefines.h; path = Source/AppAuthCore/OIDDefines.h; sourceTree = "<group>"; };
+		D8F03B3333F81AF08AC6EA56961CD0BC /* BMSCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMSCore.h; path = Source/Resources/BMSCore.h; sourceTree = "<group>"; };
+		D8FB035043AA9DBB485D3FF7C719BC1B /* OIDGrantTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDGrantTypes.m; path = Source/AppAuthCore/OIDGrantTypes.m; sourceTree = "<group>"; };
+		DB382AFEF11E350916640AC49A74D7A6 /* OIDTokenResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDTokenResponse.m; path = Source/AppAuthCore/OIDTokenResponse.m; sourceTree = "<group>"; };
+		DC5EEBB400FF888E5196E7BB23C56753 /* OIDIDToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDIDToken.m; path = Source/AppAuthCore/OIDIDToken.m; sourceTree = "<group>"; };
+		DEF2BC5B1D9D34D66E1CC9181B1696D7 /* NetworkMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkMonitor.swift; path = "Source/Network Requests/NetworkMonitor.swift"; sourceTree = "<group>"; };
+		E0C647AF48BF5E7C14FA597263D1F0B6 /* OIDAuthorizationResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDAuthorizationResponse.m; path = Source/AppAuthCore/OIDAuthorizationResponse.m; sourceTree = "<group>"; };
+		E1F0523AB39B856278B8177C48E03503 /* OIDClientMetadataParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDClientMetadataParameters.h; path = Source/AppAuthCore/OIDClientMetadataParameters.h; sourceTree = "<group>"; };
+		E2D89E7B97FFE30CA891D2A37014DB3B /* PKHUDSystemActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSystemActivityIndicatorView.swift; path = PKHUD/PKHUDSystemActivityIndicatorView.swift; sourceTree = "<group>"; };
+		E377CC985DC5FEA53BDEB467D72EDCFB /* WindowRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowRootViewController.swift; path = PKHUD/WindowRootViewController.swift; sourceTree = "<group>"; };
+		E491A2F004AE0045F69ED7C1BD72AE5C /* OIDExternalUserAgentSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentSession.h; path = Source/AppAuthCore/OIDExternalUserAgentSession.h; sourceTree = "<group>"; };
+		E6398E7F5E2A9D91D0B41A4712CC6BC7 /* OIDRegistrationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDRegistrationRequest.m; path = Source/AppAuthCore/OIDRegistrationRequest.m; sourceTree = "<group>"; };
+		E8A8B81473DF19035161151B44383A81 /* OIDURLSessionProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDURLSessionProvider.m; path = Source/AppAuthCore/OIDURLSessionProvider.m; sourceTree = "<group>"; };
+		E8F5FCECDF85454511EE1E3E2818886F /* OIDGrantTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDGrantTypes.h; path = Source/AppAuthCore/OIDGrantTypes.h; sourceTree = "<group>"; };
+		ECBF9A16CFC1548D2E0FE5028171734F /* OIDAuthorizationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthorizationRequest.h; path = Source/AppAuthCore/OIDAuthorizationRequest.h; sourceTree = "<group>"; };
+		ECF2E3692666706467B58CD39F87E831 /* OIDClientMetadataParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDClientMetadataParameters.m; path = Source/AppAuthCore/OIDClientMetadataParameters.m; sourceTree = "<group>"; };
+		ED10D06D1BE9CC2175E0E824A974127B /* OIDRegistrationResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDRegistrationResponse.m; path = Source/AppAuthCore/OIDRegistrationResponse.m; sourceTree = "<group>"; };
+		ED786B64666221029588437F54B752E2 /* OIDEndSessionRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDEndSessionRequest.m; path = Source/AppAuthCore/OIDEndSessionRequest.m; sourceTree = "<group>"; };
+		EE882B9896312C19E9F1996DB94DBFD9 /* BMSAnalyticsAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BMSAnalyticsAPI-umbrella.h"; sourceTree = "<group>"; };
+		EF4F2DFCB69FFAC203B891A0785A60F8 /* OIDScopeUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDScopeUtilities.h; path = Source/AppAuthCore/OIDScopeUtilities.h; sourceTree = "<group>"; };
+		F002CB5978CB4E5E21D782AD262CBB8D /* BMSPushClientOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMSPushClientOptions.swift; path = Source/BMSPushClientOptions.swift; sourceTree = "<group>"; };
+		F0340EB3EE90F4F886D8C482D354009D /* BMSAnalyticsAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BMSAnalyticsAPI.modulemap; sourceTree = "<group>"; };
+		F255E2C0C9267055CE2B2069D308D165 /* BMSCore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BMSCore; path = BMSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58A1C7D585A033FDECB2DF26B6E1E86 /* OIDExternalUserAgentIOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentIOS.h; path = Source/AppAuth/iOS/OIDExternalUserAgentIOS.h; sourceTree = "<group>"; };
+		F70DC851451C89D36A21339DDDD1E6CD /* OIDTokenResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDTokenResponse.h; path = Source/AppAuthCore/OIDTokenResponse.h; sourceTree = "<group>"; };
+		FBB45D834F490B655357C01CE7C991ED /* PKHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-prefix.pch"; sourceTree = "<group>"; };
+		FDF37757B3BB66914D79656F0ACC9C47 /* BMSURLSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMSURLSession.swift; path = "Source/Network Requests/BMSURLSession.swift"; sourceTree = "<group>"; };
+		FF3BDCDE0C37266D951FEBD45BE897FD /* AppAuth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppAuth-umbrella.h"; sourceTree = "<group>"; };
+		FF5CC5EA4CF47C1181B83CCDD595219E /* Pods-EmergencyPreparednessApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmergencyPreparednessApp.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AE106F67CD817484D5123E1ED14F592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55064EAF9418DD36D04BBAF4B0017D37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E12C8C0530472C24E4358C008D2BBB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981D49EC59861195750C98C8A9494D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E3B05C4F7DF7F764DE2735572C97F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F3EBA769B72FD0DA4C7A10710D3F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21812B0C5F6C1BC0DC3303B73915D91B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C52BF487F7C4BD382406AFF39E61A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E0AB483598D2FA470BB79B1B2DED5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5544D709B7FC2A4BE1DD21ECD01630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CD7F034DCB65E8C64598013FCDDD43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8703AD13333A0CEC142335B7F4DFB50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF9E0A7ADD7449CF2026546440EBB1F /* Foundation.framework in Frameworks */,
+				4816ED359D1CCB98A1C010564EE02C2F /* SafariServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D7830E5380316A12E001CA6ED643D15 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90D34EA5756FAE547322BF53FECC924F /* BMSPush.modulemap */,
+				3118A931D9521F7633F9AE2C1E3E548F /* BMSPush-dummy.m */,
+				8171B86AF55D5CE54A27C283DD0662FE /* BMSPush-Info.plist */,
+				0C4377D5BE06FAB77082B1DADA99D1ED /* BMSPush-prefix.pch */,
+				C5E00D5713E28052BB004D8B7F57A66E /* BMSPush-umbrella.h */,
+				CAA5C4A5A4210F0B93B57E8FCCA8F28E /* BMSPush.debug.xcconfig */,
+				49059FA34FC0F04FEDF2CB0045D7BC58 /* BMSPush.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BMSPush";
+			sourceTree = "<group>";
+		};
+		0F47BCF2BAD87B6549ED288913586C88 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34863D6A74B56A5DD70775B7BCEC5223 /* BMSCore.modulemap */,
+				BDAD078BFEC6EAE977DA70433334FD3C /* BMSCore-dummy.m */,
+				B87F1CD1B4ADFF4D942B356CCC700C44 /* BMSCore-Info.plist */,
+				5D0752822E433A6ABA16F44F4B07952A /* BMSCore-prefix.pch */,
+				C662C65FF4B16AA9B00225544D81D810 /* BMSCore.debug.xcconfig */,
+				03735D6F69D8321504BE3F4F175B07B2 /* BMSCore.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BMSCore";
+			sourceTree = "<group>";
+		};
+		0F9A0ED9AEC313867A13B3B36E716842 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA7A2897D4D5548CE871638CC46F2E21 /* AppAuth.modulemap */,
+				90447A8D241E38A557900BC915B86D69 /* AppAuth-dummy.m */,
+				9E5D47FDF209CEB2308D026543E33C3C /* AppAuth-Info.plist */,
+				1B8B5960756C478AD312919F58F516D5 /* AppAuth-prefix.pch */,
+				FF3BDCDE0C37266D951FEBD45BE897FD /* AppAuth-umbrella.h */,
+				0F79D068CEEDDE744C615908DA692E3E /* AppAuth.debug.xcconfig */,
+				7D1C8D1ECECF6597CD911B5DB548B2F6 /* AppAuth.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppAuth";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4DC98E24FD245DA7505C9B33D5BE3D1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		178B24586936AF72F1ABFEBB925D6B0D /* PKHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1A214E41D5C5BC33A5C146EC9DCF5B93 /* FrameView.swift */,
+				A0C2CF03EFD38F3826BDECC443B912A2 /* HUD.swift */,
+				2ACB2ACE1435350C7F0DF2C441C054C0 /* PKHUD.h */,
+				7654180805BBC3781A7061954F63BF2A /* PKHUD.swift */,
+				0A40129509E8E80CDA810FC7F3CCDD3E /* PKHUDAnimating.swift */,
+				93EF19D21A8EE08609B8E57B3E92503C /* PKHUDAnimation.swift */,
+				2D05186F0990F5E7C78775E0CDA9BEEA /* PKHUDAssets.swift */,
+				BC956AD7AEB0223AED606C3F15DC4553 /* PKHUDErrorView.swift */,
+				2A64B70F5EBF525EF0009F138598D28C /* PKHUDProgressView.swift */,
+				D4432A8F60D33E2F0ED9F26B68E8788D /* PKHUDRotatingImageView.swift */,
+				69D5A857C2466CD4CF32B80C7855D1AC /* PKHUDSquareBaseView.swift */,
+				BAF06D51A491132F7984DD5AD2361655 /* PKHUDSuccessView.swift */,
+				E2D89E7B97FFE30CA891D2A37014DB3B /* PKHUDSystemActivityIndicatorView.swift */,
+				45BE985403864CE883C2C5EE5C7F77B7 /* PKHUDTextView.swift */,
+				388C90E719D5A80037BD4152F6625645 /* PKHUDWideBaseView.swift */,
+				0797823AA9FB4C730644083124C835A5 /* Window.swift */,
+				E377CC985DC5FEA53BDEB467D72EDCFB /* WindowRootViewController.swift */,
+				4E906D32B5CE8205320E1C6F590250FC /* Resources */,
+				71B518B799CBBF4429AC6527FC7DD3C9 /* Support Files */,
+			);
+			path = PKHUD;
+			sourceTree = "<group>";
+		};
+		1D44272237B39A4E5297554541AC2372 /* AppAuth */ = {
+			isa = PBXGroup;
+			children = (
+				4DA71F5CFC59104B56732182391A27E3 /* Core */,
+				AAC0CECB51EE2142C59B45F7C5942423 /* ExternalUserAgent */,
+				0F9A0ED9AEC313867A13B3B36E716842 /* Support Files */,
+			);
+			path = AppAuth;
+			sourceTree = "<group>";
+		};
+		20A4AB4F81D8790517D45215C96A2A3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				213C2C452901B5E26407D65FC9288201 /* AppCenterAnalytics.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B178225ACD4DA17222A07F1EC7C6030 /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				9292E4FEED10C34E997156E579311225 /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		4DA71F5CFC59104B56732182391A27E3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9F9E736595DB537E63E307A41DEA97F7 /* AppAuthCore.h */,
+				ECBF9A16CFC1548D2E0FE5028171734F /* OIDAuthorizationRequest.h */,
+				08CA0260F882A35F58A96297CB580EFC /* OIDAuthorizationRequest.m */,
+				53E3A991F0301CA744266F59569DBCA9 /* OIDAuthorizationResponse.h */,
+				E0C647AF48BF5E7C14FA597263D1F0B6 /* OIDAuthorizationResponse.m */,
+				D7819DC8FF01D498E3395A6918A3375D /* OIDAuthorizationService.h */,
+				42BB35871521AF709482B08EBEE9EF70 /* OIDAuthorizationService.m */,
+				761B5B01E43F181A408427783E91D418 /* OIDAuthState.h */,
+				D589EC497C510CCD86FEB49C5A8945E6 /* OIDAuthState.m */,
+				B5D461AB3351A9B346926AACC7608913 /* OIDAuthStateChangeDelegate.h */,
+				660E6A58AC1B1025D0EECF8865F2C6A6 /* OIDAuthStateErrorDelegate.h */,
+				E1F0523AB39B856278B8177C48E03503 /* OIDClientMetadataParameters.h */,
+				ECF2E3692666706467B58CD39F87E831 /* OIDClientMetadataParameters.m */,
+				D8A2823E34577FB8A377139E70D6D25E /* OIDDefines.h */,
+				8B69EC9097D02BF563EB3D3E043DA5D2 /* OIDEndSessionRequest.h */,
+				ED786B64666221029588437F54B752E2 /* OIDEndSessionRequest.m */,
+				AA5E02BD0290FB5E711E403CE5DE8151 /* OIDEndSessionResponse.h */,
+				C2D45615E456DE263AF372063F887D6F /* OIDEndSessionResponse.m */,
+				46071CA308EE98A32CA4ED2A5C2B84CC /* OIDError.h */,
+				4DBDF090D0273BA9DD1E61D062AE9739 /* OIDError.m */,
+				3E620E048204A045F9F0DE3F2026E9EF /* OIDErrorUtilities.h */,
+				C2D23EEF7811D19009D73E0110C190BF /* OIDErrorUtilities.m */,
+				73384EE1152F8F7B7A31950740F42704 /* OIDExternalUserAgent.h */,
+				8D70C46D6CE71FEDE7FFF60C02FB7586 /* OIDExternalUserAgentRequest.h */,
+				E491A2F004AE0045F69ED7C1BD72AE5C /* OIDExternalUserAgentSession.h */,
+				D246B5EAB743C175A678D7F944DC75DA /* OIDFieldMapping.h */,
+				A56E18890D5C26482709E3D923CE697F /* OIDFieldMapping.m */,
+				E8F5FCECDF85454511EE1E3E2818886F /* OIDGrantTypes.h */,
+				D8FB035043AA9DBB485D3FF7C719BC1B /* OIDGrantTypes.m */,
+				9F4B3837ABC66730BF06334F2387603A /* OIDIDToken.h */,
+				DC5EEBB400FF888E5196E7BB23C56753 /* OIDIDToken.m */,
+				3C482518EA3A45B799B53553B4E1340F /* OIDRegistrationRequest.h */,
+				E6398E7F5E2A9D91D0B41A4712CC6BC7 /* OIDRegistrationRequest.m */,
+				047011877C80C0172AA68DA0C458926B /* OIDRegistrationResponse.h */,
+				ED10D06D1BE9CC2175E0E824A974127B /* OIDRegistrationResponse.m */,
+				D4BC9646AE6D2F1F348CDA42439643D4 /* OIDResponseTypes.h */,
+				9CCB1251C1CD8B64B61300C254D841CC /* OIDResponseTypes.m */,
+				BEC4C550CD51B56B8D4AEC1E3820243C /* OIDScopes.h */,
+				C4214695EA5A89F12C2E62B167B47148 /* OIDScopes.m */,
+				EF4F2DFCB69FFAC203B891A0785A60F8 /* OIDScopeUtilities.h */,
+				02D115C26BB7B4C792CFFEEADFA20EEB /* OIDScopeUtilities.m */,
+				92C655D67C957A14AF1FECC49FFF3F3F /* OIDServiceConfiguration.h */,
+				D70D03F9887A80DDAF4DEE30773B79BE /* OIDServiceConfiguration.m */,
+				A3018F8E2660CCC7737BCE1D677AAC8B /* OIDServiceDiscovery.h */,
+				C875267C8208F4D5CEA2B924271D68E2 /* OIDServiceDiscovery.m */,
+				9DD4EA247B8D4C48A16B56638C78C95D /* OIDTokenRequest.h */,
+				A057CFF6F5E7CE3670E9AEB92BE86628 /* OIDTokenRequest.m */,
+				F70DC851451C89D36A21339DDDD1E6CD /* OIDTokenResponse.h */,
+				DB382AFEF11E350916640AC49A74D7A6 /* OIDTokenResponse.m */,
+				92A7BA7E5473536EBBA84A9473F0BFE3 /* OIDTokenUtilities.h */,
+				799A1F98B2E9A1697DA0BD11E00E2376 /* OIDTokenUtilities.m */,
+				8B98C6D534AD6570A4A7EA7BF66BAA0F /* OIDURLQueryComponent.h */,
+				2D1C791948615F829B4F86AB4BDCF169 /* OIDURLQueryComponent.m */,
+				028FECB51F574C9EBE53D73E17BAB43C /* OIDURLSessionProvider.h */,
+				E8A8B81473DF19035161151B44383A81 /* OIDURLSessionProvider.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		4E906D32B5CE8205320E1C6F590250FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C05F70BE1A086DA32A7B5D995E916EF0 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5E7638B2B5B8AB1430674AFE0D7FD18D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FD1B4C1246D643E9476438C28048FA8 /* AppAuth */,
+				36B0DEE3EE7E10AC2578D20C2922789B /* BMSAnalyticsAPI */,
+				F255E2C0C9267055CE2B2069D308D165 /* BMSCore */,
+				8DDD5A995A30538474D9EB5C92F584D4 /* BMSPush */,
+				05A2656F46E8CA87E77A035911B33D10 /* PKHUD */,
+				BFCB2D5C605270A32522299AED3B5AE6 /* PKHUDResources.bundle */,
+				37B3260C5E18141084C94B4F3DEF9656 /* Pods-EmergencyPreparednessApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61A8EB78F8AA122E1B589D1FBBB56205 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				20A4AB4F81D8790517D45215C96A2A3F /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		71B518B799CBBF4429AC6527FC7DD3C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				646A759D12A2C5A4E0803105A453E500 /* PKHUD.modulemap */,
+				18BB4A32353274673750A08BC821BE59 /* PKHUD-dummy.m */,
+				9EBDF583784AF43527EFE4A2A6B561EE /* PKHUD-Info.plist */,
+				FBB45D834F490B655357C01CE7C991ED /* PKHUD-prefix.pch */,
+				243C32B1456EF9E901A63FDA1B7E835E /* PKHUD-umbrella.h */,
+				87451DD82D06C89D953F4C8EC491CD59 /* PKHUD.debug.xcconfig */,
+				99C4A30C7CDF4F1A886577AA079F6077 /* PKHUD.release.xcconfig */,
+				56F6C22C0E3A1612C8CF1BE064F70916 /* ResourceBundle-PKHUDResources-PKHUD-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PKHUD";
+			sourceTree = "<group>";
+		};
+		8508389E3F6AAEC3A87DA18E1DB4DAA4 /* BMSPush */ = {
+			isa = PBXGroup;
+			children = (
+				70B2CE449C650B838E3B0E89ED5748FD /* BMSConstants.swift */,
+				D731BFF0531A6626F4A4843E47797A09 /* BMSLocalPushNotification.swift */,
+				CA85825531636D4DF60638DF4482A201 /* BMSPushClient.swift */,
+				F002CB5978CB4E5E21D782AD262CBB8D /* BMSPushClientOptions.swift */,
+				C2C46FC13B3054558F945A288C2D242C /* BMSPushNotificationAction.swift */,
+				8D60B21C42E4D2153F7A842B5A2EBA4A /* BMSPushNotificationActionCategory.swift */,
+				2C33593134087F1DFA117E6BBA12DC0A /* BMSPushUrlBuilder.swift */,
+				689919B245A10A76D1CA75CC286DBFAA /* BMSPushUtils.swift */,
+				49DD0419C27E35D35562FDB88CEE6DEF /* BMSResponse.swift */,
+				3CC53B88AACC9B10A0814818F2C690C1 /* BMSRichPushNotificationOptions.swift */,
+				0D7830E5380316A12E001CA6ED643D15 /* Support Files */,
+			);
+			path = BMSPush;
+			sourceTree = "<group>";
+		};
+		9292E4FEED10C34E997156E579311225 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CD06227776C014C8E7B76FE4E677705 /* AppCenterCrashes.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95CFB4A4C2F298BAE5B613897730A416 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C1D8082F956AAAE569CD9713C8CD8930 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		A4BBD17A0FF4727EA3BB2D403044503A /* BMSCore */ = {
+			isa = PBXGroup;
+			children = (
+				468674EA53877F05A3A06F4454887DB4 /* AppIdentity.swift */,
+				C65A84AFA1C2EB2951CD125CE22BC602 /* AuthorizationManager.swift */,
+				5F912AEA3FEFDB2F6404895824D0E657 /* BaseAppIdentity.swift */,
+				3F937046690C02FF55E39722B65AC1B4 /* BaseAuthorizationManager.swift */,
+				0A98D4C93845FC30E12F1D8119AA4530 /* BaseDeviceIdentity.swift */,
+				2F4109D096CBEDE85A7B88AFE703C826 /* BaseUserIdentity.swift */,
+				B70ED5A3B306AF2069CB1EB8F27E54C3 /* BMSClient.swift */,
+				D8F03B3333F81AF08AC6EA56961CD0BC /* BMSCore.h */,
+				FDF37757B3BB66914D79656F0ACC9C47 /* BMSURLSession.swift */,
+				115D7BC609486D996F08485A5C9B011C /* BMSURLSessionDelegate.swift */,
+				75170EA6E0CFA51E9EFD013F89A1C1BC /* BMSURLSessionUtility.swift */,
+				786E03C5B2CE1037183C9FC3107963D1 /* DeviceIdentity.swift */,
+				AB304691BC7985987E9F60E0454203CF /* Error.swift */,
+				0D4D71478B03CA8922C077D5D40D09FE /* module.modulemap */,
+				DEF2BC5B1D9D34D66E1CC9181B1696D7 /* NetworkMonitor.swift */,
+				AB3116D526E7FEDDD8FC8F736B238860 /* Request.swift */,
+				C2C4D4F6746515A1280BE839A6DCA633 /* Response.swift */,
+				42C2E94E249976CB988FDC2AAB8198AF /* UserIdentity.swift */,
+				0F47BCF2BAD87B6549ED288913586C88 /* Support Files */,
+			);
+			path = BMSCore;
+			sourceTree = "<group>";
+		};
+		A4DC98E24FD245DA7505C9B33D5BE3D1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				48DBC1182C8415D263FF3E4D6A690614 /* Foundation.framework */,
+				1D7F52E9440D6BFF0B1159CE55091460 /* SafariServices.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AAC0CECB51EE2142C59B45F7C5942423 /* ExternalUserAgent */ = {
+			isa = PBXGroup;
+			children = (
+				1AF878D514A36C6F6CEC4D87DA3FE933 /* AppAuth.h */,
+				993AB7E35CC2F076EBACDC6D952513E7 /* OIDAuthorizationService+IOS.h */,
+				8AF2399234121AB41170B6F76FCD1A16 /* OIDAuthorizationService+IOS.m */,
+				B3C9541FB715FB2352F9978A83F4AD17 /* OIDAuthState+IOS.h */,
+				197C4800AAF58304E6A9603E8D71845D /* OIDAuthState+IOS.m */,
+				B86CC834F4C767461006DBF0845B53DF /* OIDExternalUserAgentCatalyst.h */,
+				130C10662FD971DDE4FE9D34F1B8F918 /* OIDExternalUserAgentCatalyst.m */,
+				F58A1C7D585A033FDECB2DF26B6E1E86 /* OIDExternalUserAgentIOS.h */,
+				5B3AC1EECD1385829525E4127F9980F6 /* OIDExternalUserAgentIOS.m */,
+				1670DDA5CEC65AA43BF67B249EE7A531 /* OIDExternalUserAgentIOSCustomBrowser.h */,
+				CBB02DA266FE031DD1929324C6C8B033 /* OIDExternalUserAgentIOSCustomBrowser.m */,
+			);
+			name = ExternalUserAgent;
+			sourceTree = "<group>";
+		};
+		B836A59F84BF90206DA25BAA506D3544 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1889C1A80900D85CAFC842553FE0E480 /* AppCenter-xcframeworks.sh */,
+				8D0F896E3A0C3003167372F3DC2CB505 /* AppCenter.debug.xcconfig */,
+				5619382A7E7674E1E34C80BE30E112CA /* AppCenter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenter";
+			sourceTree = "<group>";
+		};
+		C1D8082F956AAAE569CD9713C8CD8930 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F2E1FE8E81837BF0197AA25BA4D39A7 /* AppCenter.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4B56D423803BFD0CA3340EC0F59B61B /* Pods-EmergencyPreparednessApp */ = {
+			isa = PBXGroup;
+			children = (
+				FF5CC5EA4CF47C1181B83CCDD595219E /* Pods-EmergencyPreparednessApp.modulemap */,
+				3D7559821C66CD1CDE86860D785AE5CC /* Pods-EmergencyPreparednessApp-acknowledgements.markdown */,
+				48B8493F082AE2DDAFCDF7C02C9DCC30 /* Pods-EmergencyPreparednessApp-acknowledgements.plist */,
+				78439433329E78001807C4EA32CDC032 /* Pods-EmergencyPreparednessApp-dummy.m */,
+				D643CBC24179478ED00C76F2E0D3EFF0 /* Pods-EmergencyPreparednessApp-frameworks.sh */,
+				534C82C1D602DDF8CB00AC9699BDB92A /* Pods-EmergencyPreparednessApp-Info.plist */,
+				84F52EF415193446AFC4B3EE53702BB0 /* Pods-EmergencyPreparednessApp-umbrella.h */,
+				9BAE1DBE2D9A62AE79603A1D8B0D70D0 /* Pods-EmergencyPreparednessApp.debug.xcconfig */,
+				810F19E7BEED58E21803753C333B81E1 /* Pods-EmergencyPreparednessApp.release.xcconfig */,
+			);
+			name = "Pods-EmergencyPreparednessApp";
+			path = "Target Support Files/Pods-EmergencyPreparednessApp";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				EF7C612DB9D200CEE59C99F1007AD577 /* Pods */,
+				5E7638B2B5B8AB1430674AFE0D7FD18D /* Products */,
+				F07B62C88125270D98454E6EFEABCE91 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFFD9265B43B7E41CA941B39CE45433E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0340EB3EE90F4F886D8C482D354009D /* BMSAnalyticsAPI.modulemap */,
+				02F118E7817837E9D99AE426994B2BD2 /* BMSAnalyticsAPI-dummy.m */,
+				9B5297962DE5482AB025B6A0E25745CD /* BMSAnalyticsAPI-Info.plist */,
+				032C1B449A0CF0E0F5D9F9C1583D9E12 /* BMSAnalyticsAPI-prefix.pch */,
+				EE882B9896312C19E9F1996DB94DBFD9 /* BMSAnalyticsAPI-umbrella.h */,
+				8AA88BAE6B941AE24B8DAB9BBEC3AA63 /* BMSAnalyticsAPI.debug.xcconfig */,
+				010230156C911C9FF7D4059C72E97603 /* BMSAnalyticsAPI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BMSAnalyticsAPI";
+			sourceTree = "<group>";
+		};
+		D3DD96C0AC296664368747CE5DB51AE9 /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				61A8EB78F8AA122E1B589D1FBBB56205 /* Analytics */,
+				95CFB4A4C2F298BAE5B613897730A416 /* Core */,
+				3B178225ACD4DA17222A07F1EC7C6030 /* Crashes */,
+				B836A59F84BF90206DA25BAA506D3544 /* Support Files */,
+			);
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
+		EF7C612DB9D200CEE59C99F1007AD577 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D44272237B39A4E5297554541AC2372 /* AppAuth */,
+				D3DD96C0AC296664368747CE5DB51AE9 /* AppCenter */,
+				FE1964ED4DC43D028F3737F568E250FF /* BMSAnalyticsAPI */,
+				A4BBD17A0FF4727EA3BB2D403044503A /* BMSCore */,
+				8508389E3F6AAEC3A87DA18E1DB4DAA4 /* BMSPush */,
+				178B24586936AF72F1ABFEBB925D6B0D /* PKHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F07B62C88125270D98454E6EFEABCE91 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4B56D423803BFD0CA3340EC0F59B61B /* Pods-EmergencyPreparednessApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FE1964ED4DC43D028F3737F568E250FF /* BMSAnalyticsAPI */ = {
+			isa = PBXGroup;
+			children = (
+				696083D6A156A26EFD05682CE631ABD8 /* Analytics.swift */,
+				A35B17A330214345007A5418CAA9413B /* Logger.swift */,
+				A5A076F87005DDFD0C2FE702401F5B03 /* RequestMetadata.swift */,
+				CFFD9265B43B7E41CA941B39CE45433E /* Support Files */,
+			);
+			path = BMSAnalyticsAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		287A70F7F3234788AD73C7A3F0D8BFB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9ACCD900E69758B4F60CF9111BD8CD3 /* BMSPush-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E5920020A86ADB0AC5D67D638640684 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AD353EC5CADF005E457C6F2710F0E0 /* BMSCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56AFFE17EC93F6A9E1A35178C8E9EB13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6C35E969D7E058FB7DEF5F8D6B735ED /* BMSAnalyticsAPI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A580A63AF4C377C0A5656869023B866 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD985E4671C5879F20406153E3E574C /* AppAuth.h in Headers */,
+				A88A28AD0AE43322D415B1F83183EB66 /* AppAuth-umbrella.h in Headers */,
+				468CEC1F1ED6564685600D76F289F8CB /* AppAuthCore.h in Headers */,
+				A35244C9342474C7118D33BE2996BF00 /* OIDAuthorizationRequest.h in Headers */,
+				551E477DFE0DF7EA481165609280D1D7 /* OIDAuthorizationResponse.h in Headers */,
+				439CAB2D08FC0211211A3C29A8FBC623 /* OIDAuthorizationService.h in Headers */,
+				D5642F71CE45450DF87F7190152DB0F3 /* OIDAuthorizationService+IOS.h in Headers */,
+				6264526D8F9C1ACEF1013E5A724FD971 /* OIDAuthState.h in Headers */,
+				E68DFBC20982FEA7114CBB25144D3086 /* OIDAuthState+IOS.h in Headers */,
+				36DC3ACDD3D67D6800CABB2100702A0A /* OIDAuthStateChangeDelegate.h in Headers */,
+				320D03F92E37CA225E1AB819D00B09B6 /* OIDAuthStateErrorDelegate.h in Headers */,
+				161B289F1C83A7281E6842E33014033F /* OIDClientMetadataParameters.h in Headers */,
+				F6E75F5FD0501A6E1464C1153B20CB97 /* OIDDefines.h in Headers */,
+				D08E73CE77698A4EC2EFF175667F92A8 /* OIDEndSessionRequest.h in Headers */,
+				457F8F3576D65A8717113C59D6665554 /* OIDEndSessionResponse.h in Headers */,
+				4845BF5ED5999291320D49E88162F62A /* OIDError.h in Headers */,
+				84721D9C8FAD373C09FFCDA8D18F212A /* OIDErrorUtilities.h in Headers */,
+				51C24FAAC45273CE7FF920D0CC553274 /* OIDExternalUserAgent.h in Headers */,
+				CCF47FFB15F39E4ACAF3C9320138B20E /* OIDExternalUserAgentCatalyst.h in Headers */,
+				2EF390C79F02F4E85DB5FB4C1F042498 /* OIDExternalUserAgentIOS.h in Headers */,
+				B40B071395954881429075EA56BF9512 /* OIDExternalUserAgentIOSCustomBrowser.h in Headers */,
+				752935D37B27C4524979795B8403211D /* OIDExternalUserAgentRequest.h in Headers */,
+				37B71CC20A787EAE0662CD1A40DA64B6 /* OIDExternalUserAgentSession.h in Headers */,
+				17EC3E69469BB4FE2ACD89184105A8BA /* OIDFieldMapping.h in Headers */,
+				4447683B19506EEA079DF50B4439B0D5 /* OIDGrantTypes.h in Headers */,
+				E2D4DF482E8F882B8FEC15020D3AEAA9 /* OIDIDToken.h in Headers */,
+				BB4A42BC10B2E69F4579A26457C28CDA /* OIDRegistrationRequest.h in Headers */,
+				F950D208FA4D412081B58F83807785A4 /* OIDRegistrationResponse.h in Headers */,
+				2156F1E12D1F62F8322CFE5C29277E6E /* OIDResponseTypes.h in Headers */,
+				E5C54585B5B2C0D195F4CEA28F28E67D /* OIDScopes.h in Headers */,
+				D53BA1EB19FC853BD345171432069A98 /* OIDScopeUtilities.h in Headers */,
+				E0A045EFE8632A1839FF0F23C4797FB7 /* OIDServiceConfiguration.h in Headers */,
+				EBE36AFF9964F232ABAEA6E260C5CF82 /* OIDServiceDiscovery.h in Headers */,
+				4C765081895B1F7551FED0CA1DBF8B77 /* OIDTokenRequest.h in Headers */,
+				A9BBB81C38ED12E9CF718ACD96A3E50A /* OIDTokenResponse.h in Headers */,
+				52DCCBBE231688834A4430EC4DC5E2F3 /* OIDTokenUtilities.h in Headers */,
+				1D66D60A6F32CFF16C509D1396D0EFDE /* OIDURLQueryComponent.h in Headers */,
+				4A24503FE25D6B716A3E4E138451B70F /* OIDURLSessionProvider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B284A3BD07FF13DB166DF10772382BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22FF8ABF41523D88E6C76202113F053 /* PKHUD.h in Headers */,
+				42BE0FE120C46ACD08F40313ECF62602 /* PKHUD-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3064C82287A3F7C845B39B6DAE5B6A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074439BC84D6EA52918CDA5EBCF1C369 /* Pods-EmergencyPreparednessApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		364873017BA37260EF589D44B6B73D21 /* PKHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47554B80CDED7BDD674F2225F226C431 /* Build configuration list for PBXNativeTarget "PKHUD" */;
+			buildPhases = (
+				6B284A3BD07FF13DB166DF10772382BB /* Headers */,
+				28235C60E4CC11FBD300DEFC8298B651 /* Sources */,
+				981D49EC59861195750C98C8A9494D6E /* Frameworks */,
+				73E323791D3C368C7E95A32AEA9C6BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40BD89165CF112059ACD972B6905E28E /* PBXTargetDependency */,
+			);
+			name = PKHUD;
+			productName = PKHUD;
+			productReference = 05A2656F46E8CA87E77A035911B33D10 /* PKHUD */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C642AA10FB29936669CC269F42079C6 /* AppAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5A2205A881DE5528CA6FE384DDD74F /* Build configuration list for PBXNativeTarget "AppAuth" */;
+			buildPhases = (
+				6A580A63AF4C377C0A5656869023B866 /* Headers */,
+				67ECF0CEF949530990C82EC62D56BD49 /* Sources */,
+				E8703AD13333A0CEC142335B7F4DFB50 /* Frameworks */,
+				2DE9CAF821DA733AF87E03FB3357AFE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppAuth;
+			productName = AppAuth;
+			productReference = 3FD1B4C1246D643E9476438C28048FA8 /* AppAuth */;
+			productType = "com.apple.product-type.framework";
+		};
+		6ABA3D02F3CA9345DBFCF795E07BF2FC /* BMSPush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9659F93343D78A6D5966D51B740C1A /* Build configuration list for PBXNativeTarget "BMSPush" */;
+			buildPhases = (
+				287A70F7F3234788AD73C7A3F0D8BFB4 /* Headers */,
+				BFC4AA85FC327FC318EE4854DAAFF2F9 /* Sources */,
+				9C52BF487F7C4BD382406AFF39E61A0A /* Frameworks */,
+				D29AA45EB1EA1A86C861AC07D75FA85C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BC9D1F343E22FB67F0CC030F39BD1E4 /* PBXTargetDependency */,
+			);
+			name = BMSPush;
+			productName = BMSPush;
+			productReference = 8DDD5A995A30538474D9EB5C92F584D4 /* BMSPush */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7F7332F1050B42A501616421AC869EB /* PKHUD-PKHUDResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62239C131F2EF5E99F03BF231F3EB7EF /* Build configuration list for PBXNativeTarget "PKHUD-PKHUDResources" */;
+			buildPhases = (
+				9F7F7CC812982C3C51AF967923ACE7B9 /* Sources */,
+				7E12C8C0530472C24E4358C008D2BBB2 /* Frameworks */,
+				3CABA75E9C42199FE079B6DB4642B8B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PKHUD-PKHUDResources";
+			productName = PKHUDResources;
+			productReference = BFCB2D5C605270A32522299AED3B5AE6 /* PKHUDResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B30DDCCAE8AC7F349C667CD99BB716D0 /* Pods-EmergencyPreparednessApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD57ADE9587F6D904DF857958C8F01A /* Build configuration list for PBXNativeTarget "Pods-EmergencyPreparednessApp" */;
+			buildPhases = (
+				D3064C82287A3F7C845B39B6DAE5B6A0 /* Headers */,
+				6BED2A0A6099D8FAEB08E8C4AEB1C2D6 /* Sources */,
+				3AE106F67CD817484D5123E1ED14F592 /* Frameworks */,
+				E4469DA08D2BEBA183E252DB442BD57D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B65A8A729AF070D304170B2FD518969F /* PBXTargetDependency */,
+				8C4417C8EE714E6027356C67E1307DA5 /* PBXTargetDependency */,
+				5196A6687B7E971BF1EFEEE99AE460CD /* PBXTargetDependency */,
+				8E57EA78AE4E30EE471B6781D7D79E7A /* PBXTargetDependency */,
+				09AACFEF3F47E8ED4A5EB6C2DD9D57AE /* PBXTargetDependency */,
+				4150A02078F237BE09AFB2739B2E5E64 /* PBXTargetDependency */,
+			);
+			name = "Pods-EmergencyPreparednessApp";
+			productName = Pods_EmergencyPreparednessApp;
+			productReference = 37B3260C5E18141084C94B4F3DEF9656 /* Pods-EmergencyPreparednessApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7775B5F5F5E3CCCD0A1E173154F35ED /* BMSCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EC4FD0263E37F7274AC48ACD439523 /* Build configuration list for PBXNativeTarget "BMSCore" */;
+			buildPhases = (
+				4E5920020A86ADB0AC5D67D638640684 /* Headers */,
+				DEA370EC1518FC3331070CA8F57763B7 /* Sources */,
+				CF5544D709B7FC2A4BE1DD21ECD01630 /* Frameworks */,
+				AED2A47F2C40E09E56E38CF6EED7FC95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731DE33D42CFB351A5E6ED8B713CADF9 /* PBXTargetDependency */,
+			);
+			name = BMSCore;
+			productName = BMSCore;
+			productReference = F255E2C0C9267055CE2B2069D308D165 /* BMSCore */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEDA8B2D5269092D51AF272AC59CDB8F /* BMSAnalyticsAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB50E1DC68A452FDD649FA010AD5A2C /* Build configuration list for PBXNativeTarget "BMSAnalyticsAPI" */;
+			buildPhases = (
+				56AFFE17EC93F6A9E1A35178C8E9EB13 /* Headers */,
+				EFA5172C3A52FEEFDA48E845F9F5E5BC /* Sources */,
+				98F3EBA769B72FD0DA4C7A10710D3F96 /* Frameworks */,
+				FD96935DAA4D063ADE48CBEF0E3F062E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BMSAnalyticsAPI;
+			productName = BMSAnalyticsAPI;
+			productReference = 36B0DEE3EE7E10AC2578D20C2922789B /* BMSAnalyticsAPI */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5E7638B2B5B8AB1430674AFE0D7FD18D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C642AA10FB29936669CC269F42079C6 /* AppAuth */,
+				A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */,
+				FEDA8B2D5269092D51AF272AC59CDB8F /* BMSAnalyticsAPI */,
+				F7775B5F5F5E3CCCD0A1E173154F35ED /* BMSCore */,
+				6ABA3D02F3CA9345DBFCF795E07BF2FC /* BMSPush */,
+				364873017BA37260EF589D44B6B73D21 /* PKHUD */,
+				A7F7332F1050B42A501616421AC869EB /* PKHUD-PKHUDResources */,
+				B30DDCCAE8AC7F349C667CD99BB716D0 /* Pods-EmergencyPreparednessApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DE9CAF821DA733AF87E03FB3357AFE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CABA75E9C42199FE079B6DB4642B8B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6E1D395C6B786C759E2EE407FA1FB1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E323791D3C368C7E95A32AEA9C6BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F376957848E8456F3A5490E9FA82D411 /* PKHUDResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED2A47F2C40E09E56E38CF6EED7FC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29AA45EB1EA1A86C861AC07D75FA85C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4469DA08D2BEBA183E252DB442BD57D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD96935DAA4D063ADE48CBEF0E3F062E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D06934B6CA4E608DB4BC52D02B50E2F /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/AppCenter/AppCenter-xcframeworks.sh",
+				"${PODS_ROOT}/AppCenter/AppCenter-SDK-Apple/AppCenterAnalytics.xcframework",
+				"${PODS_ROOT}/AppCenter/AppCenter-SDK-Apple/AppCenter.xcframework",
+				"${PODS_ROOT}/AppCenter/AppCenter-SDK-Apple/AppCenterCrashes.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AppCenter/Analytics/AppCenterAnalytics.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AppCenter/Core/AppCenter.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AppCenter/Crashes/AppCenterCrashes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/AppCenter/AppCenter-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28235C60E4CC11FBD300DEFC8298B651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EE1BC2A0CC6A033CB7F5C8F8080483 /* FrameView.swift in Sources */,
+				FECEA264ACF4ACA1F7C5401CE8E1A238 /* HUD.swift in Sources */,
+				626560FCB1C4C562C117E742A6486A1E /* PKHUD.swift in Sources */,
+				D4868F4AA31A6BC54F7F901DD5BB19F7 /* PKHUD-dummy.m in Sources */,
+				897FC477B696A506F03DBFEB46328D54 /* PKHUDAnimating.swift in Sources */,
+				333F62E2542F433813D4812D91EBC566 /* PKHUDAnimation.swift in Sources */,
+				6FAB0F9EC2A22E3BD65C9EA8F78F74A2 /* PKHUDAssets.swift in Sources */,
+				652A5783876A76F24CD10559F9317AEF /* PKHUDErrorView.swift in Sources */,
+				5F01C54555E009F90253DD1C3E0F5198 /* PKHUDProgressView.swift in Sources */,
+				CF87B91415F61D83DE60044756ADA14A /* PKHUDRotatingImageView.swift in Sources */,
+				1409D9CB66753D5C2E90FF9EA6B7AC40 /* PKHUDSquareBaseView.swift in Sources */,
+				1E589D08CB276548953C9FF2A685F130 /* PKHUDSuccessView.swift in Sources */,
+				37AE9C7F421984AA8C7B6AEFF69B0BEB /* PKHUDSystemActivityIndicatorView.swift in Sources */,
+				728592BA748BDFBE4C2ACE1ABE8A64FB /* PKHUDTextView.swift in Sources */,
+				5B8E0518EE842922F5A03F19F0B22726 /* PKHUDWideBaseView.swift in Sources */,
+				BCCED184234649D45324D05A872E9300 /* Window.swift in Sources */,
+				89FFF72E1045E77A044AA0B79796AAB6 /* WindowRootViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67ECF0CEF949530990C82EC62D56BD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2636D19CCE19A2042D35425D3CCC620 /* AppAuth-dummy.m in Sources */,
+				53D4434B14DBF9E306584407F2471187 /* OIDAuthorizationRequest.m in Sources */,
+				D7D49B9129898D8BED968B9407310B1E /* OIDAuthorizationResponse.m in Sources */,
+				44D64F1957C7A32498E40F7F45062088 /* OIDAuthorizationService.m in Sources */,
+				9301C13B1C2F01C18CBEDF320060FAE9 /* OIDAuthorizationService+IOS.m in Sources */,
+				AD01060C8D0427A83796DA370460A019 /* OIDAuthState.m in Sources */,
+				48B1B9E539FE704957CE5D8A1500EFB5 /* OIDAuthState+IOS.m in Sources */,
+				23D7A484A719B35052CFCF1A47083959 /* OIDClientMetadataParameters.m in Sources */,
+				7F6E015D616C80C1FDC9C2EBAACD8BF4 /* OIDEndSessionRequest.m in Sources */,
+				7A6888EF4D69608167457B15555A5FB2 /* OIDEndSessionResponse.m in Sources */,
+				A12D248E6C1951302E5463446D1B2E6F /* OIDError.m in Sources */,
+				2B0A24E6A9A8DF0242ED11007B9F0CD8 /* OIDErrorUtilities.m in Sources */,
+				9050D2AF3D97A5AFF66219C94D272C78 /* OIDExternalUserAgentCatalyst.m in Sources */,
+				4D684BCA97B22BC2978D0CD7599FC751 /* OIDExternalUserAgentIOS.m in Sources */,
+				D9CE2B486C831679A3D8947AC7E854D5 /* OIDExternalUserAgentIOSCustomBrowser.m in Sources */,
+				72E94CCB728FC43E24ACCF83B420EFC7 /* OIDFieldMapping.m in Sources */,
+				DF035279E713FDA8F7FA55C1EE2DE81C /* OIDGrantTypes.m in Sources */,
+				C8976FBA6C401ACD821CC8008118D275 /* OIDIDToken.m in Sources */,
+				608DEEB38C6B137DBC9A71197CBFD19D /* OIDRegistrationRequest.m in Sources */,
+				FDE948CC3A35F70EAEB413E5DE09C5ED /* OIDRegistrationResponse.m in Sources */,
+				DE601C5596687C11434FC0E08F30F076 /* OIDResponseTypes.m in Sources */,
+				5176304A117EC8C69261BB47E63C1B5F /* OIDScopes.m in Sources */,
+				2E767405F0004A42FC8FFBA1E21DFE20 /* OIDScopeUtilities.m in Sources */,
+				E966191B1149AEE7B5295921B2AD7381 /* OIDServiceConfiguration.m in Sources */,
+				E683FAD3781CD4FF38D3B78860451945 /* OIDServiceDiscovery.m in Sources */,
+				9B3E18F6BAC42DAC2A8BD0E2C3FFFF2C /* OIDTokenRequest.m in Sources */,
+				980379E3B08EE6D482F86FBAE9B3E57F /* OIDTokenResponse.m in Sources */,
+				0DE74F0B226EDC8C77D5CC00C0F15A6C /* OIDTokenUtilities.m in Sources */,
+				00B15FCCA7CC12C15A13010614F01854 /* OIDURLQueryComponent.m in Sources */,
+				A636502A305EA73DF8BE72146B23888D /* OIDURLSessionProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BED2A0A6099D8FAEB08E8C4AEB1C2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC1ED8D0745D8006F24FF47C660D4F6 /* Pods-EmergencyPreparednessApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7F7CC812982C3C51AF967923ACE7B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC4AA85FC327FC318EE4854DAAFF2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC72E2644CD9094F05B5ECD611F8925 /* BMSConstants.swift in Sources */,
+				121B0C3D44DB9173A58AA37992BD7EFB /* BMSLocalPushNotification.swift in Sources */,
+				97C68AA109473E555C22E145E9686ABF /* BMSPush-dummy.m in Sources */,
+				029C8B9FF13210779FF968423ACE5974 /* BMSPushClient.swift in Sources */,
+				C9088CDD673321B9966EA98138BAAB74 /* BMSPushClientOptions.swift in Sources */,
+				C94FD9E444C32D392420F78EE70B5430 /* BMSPushNotificationAction.swift in Sources */,
+				243160002BA286FFB5BC028467610E3C /* BMSPushNotificationActionCategory.swift in Sources */,
+				F2ACA0542B09C5E577D025AAADFA4466 /* BMSPushUrlBuilder.swift in Sources */,
+				CCFD611CFBA40CB97C9DD4C56980E9BF /* BMSPushUtils.swift in Sources */,
+				841871018EFD1366C198D9B0484DAC38 /* BMSResponse.swift in Sources */,
+				3FCC46F66539889722F343F2B02BF837 /* BMSRichPushNotificationOptions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA370EC1518FC3331070CA8F57763B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A0AF52448EFBE526C80336596182EE /* AppIdentity.swift in Sources */,
+				D114AA899B9D44235F67DE4F8B014AD9 /* AuthorizationManager.swift in Sources */,
+				1D376F58486D105963C87CEADF99EA5F /* BaseAppIdentity.swift in Sources */,
+				064331AA6828FB1C2DD441B5D77CBA2E /* BaseAuthorizationManager.swift in Sources */,
+				3E4FD8334D1FDC49B2AFCDC5CA638D5C /* BaseDeviceIdentity.swift in Sources */,
+				C139814202194D974800E5338E6ECCC4 /* BaseUserIdentity.swift in Sources */,
+				D5F1257E77DA1688FFB0E03C5DC45CC5 /* BMSClient.swift in Sources */,
+				3D0AB4FFCED688AEFEFE12DCCE7B89A4 /* BMSCore-dummy.m in Sources */,
+				3BA4BB30384C2411A2EF7F1C3EFB1268 /* BMSURLSession.swift in Sources */,
+				BCE615BC9CAC513B60DA15CC174E1474 /* BMSURLSessionDelegate.swift in Sources */,
+				7968F501CAC6C10FD5951D8E475A3F88 /* BMSURLSessionUtility.swift in Sources */,
+				59B231A3BEF1F8D412CCF5D0872901FC /* DeviceIdentity.swift in Sources */,
+				F3DFAF511BD2F9E1EEB738E979292245 /* Error.swift in Sources */,
+				F10515AD673CEF7DE3BBC1F6729213E2 /* module.modulemap in Sources */,
+				3A0E0A51FD354DBBD4EFAB2B4F02B8C6 /* NetworkMonitor.swift in Sources */,
+				EB021433DB190455EEC43FB544C0494A /* Request.swift in Sources */,
+				A8695A1BD9FC8D1A63F5E1B74D7E8424 /* Response.swift in Sources */,
+				63D6953A174B64F06DD8D734A2965653 /* UserIdentity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA5172C3A52FEEFDA48E845F9F5E5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C4B069E5EE744A164261AF2371B26F /* Analytics.swift in Sources */,
+				95608C7ACBB5A19AFA0539E45409DF90 /* BMSAnalyticsAPI-dummy.m in Sources */,
+				2141E0EC61AF18CD970FBB3602BFCC73 /* Logger.swift in Sources */,
+				8EAC625BB89EA963C8F190AE98F70B70 /* RequestMetadata.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09AACFEF3F47E8ED4A5EB6C2DD9D57AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BMSPush;
+			target = 6ABA3D02F3CA9345DBFCF795E07BF2FC /* BMSPush */;
+			targetProxy = CBC86C472022331A5AE6F724979FDC3D /* PBXContainerItemProxy */;
+		};
+		40BD89165CF112059ACD972B6905E28E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PKHUD-PKHUDResources";
+			target = A7F7332F1050B42A501616421AC869EB /* PKHUD-PKHUDResources */;
+			targetProxy = 002D75782F4F8991FCC94EB155ED0909 /* PBXContainerItemProxy */;
+		};
+		4150A02078F237BE09AFB2739B2E5E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PKHUD;
+			target = 364873017BA37260EF589D44B6B73D21 /* PKHUD */;
+			targetProxy = 6A5B2069967540E7F1993797C1E6A5B1 /* PBXContainerItemProxy */;
+		};
+		5196A6687B7E971BF1EFEEE99AE460CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BMSAnalyticsAPI;
+			target = FEDA8B2D5269092D51AF272AC59CDB8F /* BMSAnalyticsAPI */;
+			targetProxy = B35053F84753C2BB53D6E21850F6843E /* PBXContainerItemProxy */;
+		};
+		6BC9D1F343E22FB67F0CC030F39BD1E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BMSCore;
+			target = F7775B5F5F5E3CCCD0A1E173154F35ED /* BMSCore */;
+			targetProxy = BBC479ED47D566A4B95CE963389F00AB /* PBXContainerItemProxy */;
+		};
+		731DE33D42CFB351A5E6ED8B713CADF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BMSAnalyticsAPI;
+			target = FEDA8B2D5269092D51AF272AC59CDB8F /* BMSAnalyticsAPI */;
+			targetProxy = 7FD4218F9E151212660A64014DA2E156 /* PBXContainerItemProxy */;
+		};
+		8C4417C8EE714E6027356C67E1307DA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */;
+			targetProxy = DBE16DBEA58C0403B4E166625B237520 /* PBXContainerItemProxy */;
+		};
+		8E57EA78AE4E30EE471B6781D7D79E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BMSCore;
+			target = F7775B5F5F5E3CCCD0A1E173154F35ED /* BMSCore */;
+			targetProxy = E105328987C7A0695D7D9292F44D8CE7 /* PBXContainerItemProxy */;
+		};
+		B65A8A729AF070D304170B2FD518969F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppAuth;
+			target = 5C642AA10FB29936669CC269F42079C6 /* AppAuth */;
+			targetProxy = 1246931CDA955CF61C28E19137DBEDC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07570E86E65836F20EB4DFEBC7B83183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87451DD82D06C89D953F4C8EC491CD59 /* PKHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PKHUD/PKHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PKHUD/PKHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PKHUD/PKHUD.modulemap";
+				PRODUCT_MODULE_NAME = PKHUD;
+				PRODUCT_NAME = PKHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1438CD0F0E050D567D6BD104905599CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010230156C911C9FF7D4059C72E97603 /* BMSAnalyticsAPI.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BMSAnalyticsAPI/BMSAnalyticsAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BMSAnalyticsAPI/BMSAnalyticsAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BMSAnalyticsAPI/BMSAnalyticsAPI.modulemap";
+				PRODUCT_MODULE_NAME = BMSAnalyticsAPI;
+				PRODUCT_NAME = BMSAnalyticsAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		14F4244633D392E8FC50E4D109C67644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA88BAE6B941AE24B8DAB9BBEC3AA63 /* BMSAnalyticsAPI.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BMSAnalyticsAPI/BMSAnalyticsAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BMSAnalyticsAPI/BMSAnalyticsAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BMSAnalyticsAPI/BMSAnalyticsAPI.modulemap";
+				PRODUCT_MODULE_NAME = BMSAnalyticsAPI;
+				PRODUCT_NAME = BMSAnalyticsAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A5E61A9C1E978BABFFF8FDFF740E062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5619382A7E7674E1E34C80BE30E112CA /* AppCenter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44B5B838568BA08DBD4AA77EED248A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BAE1DBE2D9A62AE79603A1D8B0D70D0 /* Pods-EmergencyPreparednessApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmergencyPreparednessApp/Pods-EmergencyPreparednessApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmergencyPreparednessApp/Pods-EmergencyPreparednessApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50A2EF1815CF73311FFECC5DF82E5D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F79D068CEEDDE744C615908DA692E3E /* AppAuth.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AppAuth/AppAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AppAuth/AppAuth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AppAuth/AppAuth.modulemap";
+				PRODUCT_MODULE_NAME = AppAuth;
+				PRODUCT_NAME = AppAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		758CDA2B6967F6468ECE9CDECD5E778F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87451DD82D06C89D953F4C8EC491CD59 /* PKHUD.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PKHUD";
+				IBSC_MODULE = PKHUD;
+				INFOPLIST_FILE = "Target Support Files/PKHUD/ResourceBundle-PKHUDResources-PKHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PKHUDResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		78F4892911FC4C5E359743584ADCE72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C4A30C7CDF4F1A886577AA079F6077 /* PKHUD.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PKHUD";
+				IBSC_MODULE = PKHUD;
+				INFOPLIST_FILE = "Target Support Files/PKHUD/ResourceBundle-PKHUDResources-PKHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PKHUDResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8EACA5EDFAA1E57BF1751EC94F0F7B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C4A30C7CDF4F1A886577AA079F6077 /* PKHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PKHUD/PKHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PKHUD/PKHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PKHUD/PKHUD.modulemap";
+				PRODUCT_MODULE_NAME = PKHUD;
+				PRODUCT_NAME = PKHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9345694EDA4E8B7C8A98A17DADA3D861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C662C65FF4B16AA9B00225544D81D810 /* BMSCore.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BMSCore/BMSCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BMSCore/BMSCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BMSCore/BMSCore.modulemap";
+				PRODUCT_MODULE_NAME = BMSCore;
+				PRODUCT_NAME = BMSCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB67B16B2EAAA213F2B250F9F40316CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0F896E3A0C3003167372F3DC2CB505 /* AppCenter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC8ABA67C4E6AFD438F0F96DB8491624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49059FA34FC0F04FEDF2CB0045D7BC58 /* BMSPush.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BMSPush/BMSPush-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BMSPush/BMSPush-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BMSPush/BMSPush.modulemap";
+				PRODUCT_MODULE_NAME = BMSPush;
+				PRODUCT_NAME = BMSPush;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8987D856F88FFD71DEE66D1B6B229B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1C8D1ECECF6597CD911B5DB548B2F6 /* AppAuth.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AppAuth/AppAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AppAuth/AppAuth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AppAuth/AppAuth.modulemap";
+				PRODUCT_MODULE_NAME = AppAuth;
+				PRODUCT_NAME = AppAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DF62E83C8BC822D6141A4D5BFF5F9E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 810F19E7BEED58E21803753C333B81E1 /* Pods-EmergencyPreparednessApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmergencyPreparednessApp/Pods-EmergencyPreparednessApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmergencyPreparednessApp/Pods-EmergencyPreparednessApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E32FBEAE98E07B546CE6923F12E77891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA5C4A5A4210F0B93B57E8FCCA8F28E /* BMSPush.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BMSPush/BMSPush-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BMSPush/BMSPush-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BMSPush/BMSPush.modulemap";
+				PRODUCT_MODULE_NAME = BMSPush;
+				PRODUCT_NAME = BMSPush;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4EAF70F713F32D241EEC719B3929723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03735D6F69D8321504BE3F4F175B07B2 /* BMSCore.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BMSCore/BMSCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BMSCore/BMSCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BMSCore/BMSCore.modulemap";
+				PRODUCT_MODULE_NAME = BMSCore;
+				PRODUCT_NAME = BMSCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0437EB52E47F4DB542AB24721F109DA8 /* Build configuration list for PBXAggregateTarget "AppCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB67B16B2EAAA213F2B250F9F40316CC /* Debug */,
+				1A5E61A9C1E978BABFFF8FDFF740E062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FB50E1DC68A452FDD649FA010AD5A2C /* Build configuration list for PBXNativeTarget "BMSAnalyticsAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F4244633D392E8FC50E4D109C67644 /* Debug */,
+				1438CD0F0E050D567D6BD104905599CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47554B80CDED7BDD674F2225F226C431 /* Build configuration list for PBXNativeTarget "PKHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07570E86E65836F20EB4DFEBC7B83183 /* Debug */,
+				8EACA5EDFAA1E57BF1751EC94F0F7B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62239C131F2EF5E99F03BF231F3EB7EF /* Build configuration list for PBXNativeTarget "PKHUD-PKHUDResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758CDA2B6967F6468ECE9CDECD5E778F /* Debug */,
+				78F4892911FC4C5E359743584ADCE72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79EC4FD0263E37F7274AC48ACD439523 /* Build configuration list for PBXNativeTarget "BMSCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9345694EDA4E8B7C8A98A17DADA3D861 /* Debug */,
+				E4EAF70F713F32D241EEC719B3929723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD57ADE9587F6D904DF857958C8F01A /* Build configuration list for PBXNativeTarget "Pods-EmergencyPreparednessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B5B838568BA08DBD4AA77EED248A67 /* Debug */,
+				DF62E83C8BC822D6141A4D5BFF5F9E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5A2205A881DE5528CA6FE384DDD74F /* Build configuration list for PBXNativeTarget "AppAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A2EF1815CF73311FFECC5DF82E5D63 /* Debug */,
+				B8987D856F88FFD71DEE66D1B6B229B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9659F93343D78A6D5966D51B740C1A /* Build configuration list for PBXNativeTarget "BMSPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32FBEAE98E07B546CE6923F12E77891 /* Debug */,
+				AC8ABA67C4E6AFD438F0F96DB8491624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
